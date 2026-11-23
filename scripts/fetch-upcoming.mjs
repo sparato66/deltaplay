@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises';
 
-const searchUrl = 'https://store.steampowered.com/search/results/?filter=comingsoon&count=100&infinite=1&json=1&cc=us&l=english';
+const searchUrl = 'https://store.steampowered.com/search/results/?filter=comingsoon&count=100&infinite=1&json=1&cc=ua&l=ukrainian';
 const headers = { 'User-Agent': 'DeltaGameFeed/1.0 (+https://github.com/sparato66/deltaplay)' };
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -24,7 +24,7 @@ function cleanText(html = '') {
 function releaseDate(raw) {
   const value = raw?.date?.trim() || '';
   const parsed = Date.parse(value);
-  if (!value || /coming soon|to be announced|tba|не визначено/i.test(value)) return { label: value || 'Дата виходу уточнюється', sort: '9999-12-31' };
+  if (!value || /coming soon|to be announced|tba|не визначено/i.test(value)) return { label: 'Дата виходу уточнюється', sort: '9999-12-31' };
   if (!Number.isNaN(parsed)) return { label: new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(parsed), sort: new Date(parsed).toISOString().slice(0, 10) };
   const year = value.match(/20\d{2}/)?.[0];
   return { label: value, sort: year ? `${year}-12-31` : '9999-12-31' };
@@ -32,7 +32,7 @@ function releaseDate(raw) {
 
 async function details(id) {
   try {
-    const json = await get(`https://store.steampowered.com/api/appdetails?appids=${id}&cc=us&l=english`).then(r => r.json());
+    const json = await get(`https://store.steampowered.com/api/appdetails?appids=${id}&cc=ua&l=ukrainian`).then(r => r.json());
     const app = json[id]?.data;
     if (!json[id]?.success || !app || app.type !== 'game' || !app.release_date?.coming_soon) return null;
     const release = releaseDate(app.release_date);
