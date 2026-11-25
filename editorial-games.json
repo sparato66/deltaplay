@@ -60,6 +60,35 @@
       "sourceUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
       "storeUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
       "storeLabel": "Офіційна сторінка PlayStation"
+    },
+    {
+      "id": "god-of-war-laufey",
+      "title": "God of War Laufey",
+      "description": "Нова глава легендарної серії від Santa Monica Studio. Після смерті Фей опиняється в потойбічному Everywhen і має захистити Кратоса та Атрея. PlayStation підтвердила вихід на PS5 20 травня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "20 трав. 2027",
+      "sortDate": "2027-05-20",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9000000,
+      "priority": 9000000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ РОКУ",
+      "developers": ["Santa Monica Studio"],
+      "publishers": ["Sony Interactive Entertainment"],
+      "platforms": {"playstation5": true},
+      "genres": ["Екшн", "Пригода"],
+      "header": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "poster": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "hero": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "screenshots": [
+        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-leviathan-en-30may26?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-leviathan-en-30may26?$640px$=", "caption": "Офіційний скриншот PlayStation"},
+        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-environment-en-30may26?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-environment-en-30may26?$640px$=", "caption": "Офіційний скриншот PlayStation"}
+      ],
+      "trailers": [{"name": "Gameplay Reveal Trailer · PlayStation", "youtube": "HLMX2w3cwuE"}],
+      "website": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
+      "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
+      "storeUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
+      "storeLabel": "Офіційна сторінка PlayStation"
     }
   ]
 }
