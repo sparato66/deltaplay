@@ -7,7 +7,7 @@
     const game = (data.games || []).find((entry) => entry.id === id);
     if (!game) throw new Error('missing game');
     document.title = `${game.title} — Дельта Гейм`;
-    const platformNames = Object.entries(game.platforms || {}).filter(([, available]) => available).map(([key]) => ({ windows: 'Windows / PC', mac: 'macOS', linux: 'Linux', playstation5: 'PlayStation 5' })[key] || key);
+    const platformNames = Object.entries(game.platforms || {}).filter(([, available]) => available).map(([key]) => ({ windows: 'ПК / Windows', mac: 'macOS', linux: 'Linux', playstation5: 'PlayStation 5', xboxSeries: 'Xbox Series X|S', nintendoSwitch2: 'Nintendo Switch 2' })[key] || key);
     const trailer = (game.trailers || []).find((item) => item.mp4 || item.webm || item.youtube);
     const video = trailer
       ? `<section class="video-section"><h2>Офіційне відео</h2>${trailer.youtube ? `<iframe class="detail-trailer-frame" src="https://www.youtube-nocookie.com/embed/${esc(trailer.youtube)}" title="${esc(trailer.name || `Офіційний трейлер ${game.title}`)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>` : `<video class="detail-trailer" controls playsinline preload="metadata" poster="${esc(game.header || game.poster)}"><source src="${esc(trailer.mp4 || trailer.webm)}" type="${trailer.mp4 ? 'video/mp4' : 'video/webm'}"></video>`}<p>Відео з офіційного каналу або сторінки проєкту${trailer.name ? ` · ${esc(trailer.name)}` : ''}</p></section>`

@@ -9,7 +9,7 @@
   let shown = 12;
 
   const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
-  const platformText = (game) => Object.entries(game.platforms || {}).filter(([, available]) => available).map(([name]) => ({ windows: 'PC', mac: 'Mac', linux: 'Linux' })[name] || name).join(' · ') || 'Платформи уточнюються';
+  const platformText = (game) => Object.entries(game.platforms || {}).filter(([, available]) => available).map(([name]) => ({ windows: 'ПК', mac: 'Mac', linux: 'Linux', playstation5: 'PlayStation 5', xboxSeries: 'Xbox Series X|S', nintendoSwitch2: 'Nintendo Switch 2' })[name] || name).join(' · ') || 'Платформи уточнюються';
   const gameYear = (game) => String(game.releaseYear || game.sortDate?.slice(0, 4) || '');
   const topStudios = /CD PROJEKT|ROCKSTAR|NAUGHTY DOG|VALVE|BETHESDA|CAPCOM|SQUARE ENIX|UBISOFT|ELECTRONIC ARTS|NINTENDO|PLAYSTATION STUDIOS|XBOX GAME STUDIOS|FROM SOFTWARE|BANDAI NAMCO|PEARL ABYSS|BLIZZARD|REMEDY|LARIAN|KOEI TECMO|WARNER BROS|2K GAMES/i;
   const marqueeGames = /witcher|grand theft auto|\bgta\b|fable|final fantasy|elder scrolls|resident evil|forza horizon|god of war|ghost of|monster hunter|assassin'?s creed|star wars|marvel|call of duty|tomb raider|halo|gears of war|dragon quest|kingdom hearts|metro [0-9]|crimson desert|cyberpunk|mass effect|doom: the dark ages|warhammer 40,000|attack on titan/i;
