@@ -1,10 +1,58 @@
 (() => {
- const $=s=>document.querySelector(s),feed=$('#feed'),search=$('#search'),sort=$('#sort');let games=[],shown=12;
- const safe=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const dateLabel=g=>g.releaseDate||'Дата виходу уточнюється';
- const platformText=g=>Object.entries(g.platforms||{}).filter(([,enabled])=>enabled).map(([name])=>({windows:'Windows',mac:'macOS',linux:'Linux'}[name]||name)).join(' · ')||'Платформи уточнюються';
- const card=g=>`<article class="feed-card"><a class="card-image" href="game.html?id=${encodeURIComponent(g.id)}"><img src="${safe(g.poster||g.header)}" alt="Постер гри ${safe(g.title)}" loading="lazy"><span class="image-shade"></span><span class="soon-badge">ЩЕ НЕ ВИЙШЛА</span><span class="image-title">${safe(g.title)}</span></a><div class="card-content"><div class="card-date"><span class="calendar-icon">▦</span>${safe(dateLabel(g))}</div><p class="card-description">${safe(g.description||'Опис гри ще готується.')}</p><div class="card-bottom"><span>${safe(platformText(g))}</span><a href="game.html?id=${encodeURIComponent(g.id)}">ДЕТАЛІ ↗</a></div></div></article>`;
- function render(){const q=search.value.trim().toLocaleLowerCase('uk');let list=games.filter(g=>`${g.title} ${g.description||''} ${(g.developers||[]).join(' ')} ${platformText(g)}`.toLocaleLowerCase('uk').includes(q));if(sort.value==='name')list.sort((a,b)=>a.title.localeCompare(b.title,'uk'));else if(sort.value==='new')list.sort((a,b)=>(b.addedAt||'').localeCompare(a.addedAt||''));else list.sort((a,b)=>(a.sortDate||'9999').localeCompare(b.sortDate||'9999'));$('#game-count').textContent=list.length;$('#empty').hidden=!!list.length||!games.length;$('#load-more').hidden=list.length<=shown;feed.innerHTML=list.slice(0,shown).map(card).join('')}
- search.addEventListener('input',()=>{shown=12;render()});sort.addEventListener('change',render);$('#load-more').addEventListener('click',()=>{shown+=12;render()});
- fetch('games.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('feed');return r.json()}).then(data=>{games=(data.games||[]).filter(g=>g.comingSoon!==false);const date=data.updatedAt?new Date(data.updatedAt):null;$('#update-note').textContent=date?`ОНОВЛЕНО ${new Intl.DateTimeFormat('uk-UA',{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}).format(date)}`:'СТРІЧКА ОНОВЛЮЄТЬСЯ АВТОМАТИЧНО';render()}).catch(()=>{$('#update-note').textContent='';$('#error').hidden=false});
+  const $ = (selector) => document.querySelector(selector);
+  const feed = $('#feed');
+  const search = $('#search');
+  const sort = $('#sort');
+  let games = [];
+  let visible = 24;
+
+  const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
+  const platforms = (game) => Object.entries(game.platforms || {}).filter(([, available]) => available).map(([name]) => ({ windows: 'PC', mac: 'Mac', linux: 'Linux' })[name] || name).join(' · ') || 'Платформи уточнюються';
+  const release = (game) => game.releaseDate || 'Дата виходу уточнюється';
+  const card = (game, index) => {
+    const image = game.poster || game.header || '';
+    const style = image ? '' : `style="--card-hue:${(index * 47 + 278) % 360}"`;
+    return `<article class="game-card" ${style}>
+      <a class="game-art" href="game.html?id=${encodeURIComponent(game.id)}" aria-label="Деталі гри ${escapeHTML(game.title)}">
+        ${image ? `<img src="${escapeHTML(image)}" alt="Обкладинка гри ${escapeHTML(game.title)}" loading="lazy">` : '<span class="art-fallback">Δ</span>'}
+        <span class="art-scrim"></span><span class="status-pill"><i></i> МАЙБУТНІЙ РЕЛІЗ</span>
+        <span class="art-copy"><small>${escapeHTML((game.genres || []).slice(0, 2).join(' · ') || 'ГРА')}</small><strong>${escapeHTML(game.title)}</strong></span>
+      </a>
+      <div class="game-copy"><div class="release-date"><span>◷</span>${escapeHTML(release(game))}</div>
+        <p>${escapeHTML(game.description || 'Опис гри ще готується.')}</p>
+        <div class="card-meta"><span>${escapeHTML(platforms(game))}</span><a href="game.html?id=${encodeURIComponent(game.id)}">ДОСЬЄ <b>↗</b></a></div>
+      </div>
+    </article>`;
+  };
+
+  function render() {
+    const query = search.value.trim().toLocaleLowerCase('uk');
+    const list = games.filter((game) => `${game.title} ${game.description || ''} ${(game.developers || []).join(' ')} ${(game.publishers || []).join(' ')} ${(game.genres || []).join(' ')} ${platforms(game)}`.toLocaleLowerCase('uk').includes(query));
+    if (sort.value === 'name') list.sort((a, b) => a.title.localeCompare(b.title, 'uk'));
+    else if (sort.value === 'new') list.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''));
+    else list.sort((a, b) => (a.sortDate || '9999').localeCompare(b.sortDate || '9999') || a.title.localeCompare(b.title, 'uk'));
+    $('#game-count').textContent = String(list.length).padStart(2, '0');
+    $('#visible-count').textContent = `Показано ${Math.min(visible, list.length)} з ${list.length}`;
+    $('#empty').hidden = list.length !== 0;
+    $('#error').hidden = games.length !== 0;
+    $('#load-more').hidden = list.length <= visible;
+    feed.innerHTML = list.slice(0, visible).map(card).join('');
+  }
+
+  search.addEventListener('input', () => { visible = 24; render(); });
+  sort.addEventListener('change', render);
+  $('#load-more').addEventListener('click', () => { visible += 24; render(); });
+  fetch('games.json', { cache: 'no-store' }).then((response) => {
+    if (!response.ok) throw new Error('Не вдалося отримати каталог');
+    return response.json();
+  }).then((data) => {
+    games = (data.games || []).filter((game) => game.comingSoon === true);
+    $('#update-note').textContent = data.updatedAt ? `ЗВІРЕНО ${new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(data.updatedAt))}` : 'ДАНІ ОНОВЛЮЮТЬСЯ АВТОМАТИЧНО';
+    $('#catalog-proof').textContent = `${games.length} підтверджених сторінок Steam`;
+    render();
+  }).catch(() => {
+    $('#update-note').textContent = 'НЕ ВДАЛОСЯ ОНОВИТИ ДАНІ';
+    $('#error').hidden = false;
+    $('#game-count').textContent = '—';
+  });
 })();

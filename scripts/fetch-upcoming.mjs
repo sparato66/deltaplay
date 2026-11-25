@@ -1,16 +1,18 @@
 import { writeFile } from 'node:fs/promises';
 
-const searchUrl = 'https://store.steampowered.com/search/results/?filter=comingsoon&count=100&infinite=1&json=1&cc=ua&l=ukrainian';
-const headers = { 'User-Agent': 'DeltaGameFeed/1.0 (+https://github.com/sparato66/deltaplay)' };
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const BASE = 'https://store.steampowered.com/search/results/';
+const REQUIRED = 100;
+const PAGE_SIZE = 100;
+const headers = { 'User-Agent': 'DeltaGameFeed/2.0 (+https://github.com/sparato66/deltaplay)' };
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function get(url) {
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(25000) });
+async function getJSON(url) {
+  const response = await fetch(url, { headers, signal: AbortSignal.timeout(30000) });
   if (!response.ok) throw new Error(`Steam returned ${response.status} for ${url}`);
-  return response;
+  return response.json();
 }
 
-function appIds(markup) {
+function appIds(markup = '') {
   const ids = new Set();
   for (const match of markup.matchAll(/data-ds-appid=["'](\d+)["']/g)) ids.add(match[1]);
   for (const match of markup.matchAll(/data-ds-itemkey=["']App_(\d+)["']/g)) ids.add(match[1]);
@@ -31,40 +33,54 @@ function releaseDate(raw) {
 }
 
 async function details(id) {
-  try {
-    const json = await get(`https://store.steampowered.com/api/appdetails?appids=${id}&cc=ua&l=ukrainian`).then(r => r.json());
-    const app = json[id]?.data;
-    if (!json[id]?.success || !app || app.type !== 'game' || !app.release_date?.coming_soon) return null;
-    const release = releaseDate(app.release_date);
-    const description = cleanText(app.short_description || app.about_the_game || '').slice(0, 420);
-    return {
-      id: String(id), appid: Number(id), title: app.name || 'Без назви',
-      description, releaseDate: release.label, sortDate: release.sort,
-      comingSoon: true, addedAt: new Date().toISOString(),
-      developers: app.developers || [], publishers: app.publishers || [],
-      platforms: app.platforms || {}, genres: (app.genres || []).map(x => x.description),
-      header: app.header_image || '', poster: app.library_capsule || app.header_image || '',
-      hero: app.background_raw || app.background || '', screenshots: app.screenshots || [],
-      trailers: (app.movies || []).map(m => ({ name: m.name, mp4: m.mp4?.max || m.mp4?.[480] || '', webm: m.webm?.max || m.webm?.[480] || '' })).filter(m => m.mp4 || m.webm),
-      website: app.website || '', storeUrl: `https://store.steampowered.com/app/${id}/`, sourceUrl: `https://store.steampowered.com/app/${id}/`
-    };
-  } catch (error) {
-    console.warn(`Skipping Steam app ${id}: ${error.message}`);
-    return null;
-  }
+  const payload = await getJSON(`https://store.steampowered.com/api/appdetails?appids=${id}&cc=ua&l=ukrainian`);
+  const app = payload[id]?.data;
+  if (!payload[id]?.success || !app || app.type !== 'game' || !app.release_date?.coming_soon) return null;
+  const release = releaseDate(app.release_date);
+  const description = cleanText(app.short_description || app.about_the_game || '').slice(0, 520);
+  return {
+    id: String(id), appid: Number(id), title: app.name || 'Без назви', description,
+    releaseDate: release.label, sortDate: release.sort, comingSoon: true,
+    addedAt: new Date().toISOString(), developers: app.developers || [], publishers: app.publishers || [],
+    platforms: app.platforms || {}, genres: (app.genres || []).map((item) => item.description),
+    header: app.header_image || '', poster: app.library_capsule || app.header_image || '',
+    hero: app.background_raw || app.background || '', screenshots: app.screenshots || [],
+    trailers: (app.movies || []).map((movie) => ({ name: movie.name, mp4: movie.mp4?.max || movie.mp4?.['480'] || '', webm: movie.webm?.max || movie.webm?.['480'] || '' })).filter((movie) => movie.mp4 || movie.webm),
+    website: app.website || '', storeUrl: `https://store.steampowered.com/app/${id}/`, sourceUrl: `https://store.steampowered.com/app/${id}/`
+  };
 }
 
-const search = await get(searchUrl).then(r => r.json());
-const html = search.results_html || '';
-const ids = appIds(html).slice(0, 72);
-if (!ids.length) throw new Error('Steam search returned no upcoming game ids; keeping the last published feed is safer than replacing it with an empty list.');
-const games = [];
-for (const id of ids) {
-  const game = await details(id);
-  if (game) games.push(game);
-  await sleep(180);
+const candidates = new Set();
+let total = Infinity;
+for (let start = 0; candidates.size < 1000 && start < 5000; start += PAGE_SIZE) {
+  const query = new URLSearchParams({ filter: 'popularcomingsoon', count: PAGE_SIZE, start, infinite: 1, json: 1, cc: 'ua', l: 'ukrainian' });
+  const page = await getJSON(`${BASE}?${query}`);
+  for (const id of appIds(page.results_html)) candidates.add(id);
+  total = Number(page.total_count) || total;
+  console.log(`Steam upcoming search: ${candidates.size}/${Math.min(total, 1000)} candidates scanned.`);
+  if (!page.results_html || !appIds(page.results_html).length || start + PAGE_SIZE >= total) break;
+  await sleep(300);
 }
-if (!games.length) throw new Error('Steam app details did not return any upcoming games; not publishing an empty feed.');
-games.sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
-await writeFile('games.json', `${JSON.stringify({ updatedAt: new Date().toISOString(), source: 'Steam Store', games }, null, 2)}\n`);
-console.log(`Prepared ${games.length} upcoming games from ${ids.length} Steam search results.`);
+if (!candidates.size) throw new Error('Steam returned no upcoming game candidates; preserving the previous published catalogue.');
+
+const all = [...candidates];
+const found = new Map();
+for (let offset = 0; offset < all.length && found.size < REQUIRED; offset += 5) {
+  const batch = all.slice(offset, offset + 5);
+  const results = await Promise.all(batch.map(async (id) => {
+    try { return await details(id); }
+    catch (error) { console.warn(`Skipping Steam app ${id}: ${error.message}`); return null; }
+  }));
+  for (const game of results) {
+    if (game && !found.has(game.id)) found.set(game.id, game);
+    if (found.size === REQUIRED) break;
+  }
+  if (offset + 5 < all.length && found.size < REQUIRED) await sleep(300);
+}
+
+const games = [...found.values()].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+if (games.length !== REQUIRED) throw new Error(`Expected exactly ${REQUIRED} verified upcoming games, received ${games.length}. Preserving the last published catalogue.`);
+const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · popular upcoming', count: games.length, games };
+await writeFile('games.json', `${JSON.stringify(data, null, 2)}\n`);
+console.log(`Prepared exactly ${games.length} verified upcoming games from ${candidates.size} Steam search candidates.`);
+console.log(`Media coverage: ${games.filter((game) => game.trailers.length).length} trailers, ${games.filter((game) => game.screenshots.length).length} screenshot galleries.`);
