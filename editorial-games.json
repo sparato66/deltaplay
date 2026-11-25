@@ -274,10 +274,10 @@
     {
       "id": "god-of-war-laufey",
       "title": "God of War: Laufey",
-      "description": "Нова велика пригода у всесвіті God of War від Santa Monica Studio. Гра розповідає про Фей в потойбічному світі Everywhen і розширює міфологію серії. PlayStation підтвердила вихід на PS5 16 лютого 2027 року.",
+      "description": "Нова велика пригода у всесвіті God of War від Santa Monica Studio. Гра розповідає про Фей в потойбічному світі Everywhen і розширює міфологію серії. Після перенесення PlayStation підтвердила нову дату виходу на PS5 — 20 травня 2027 року.",
       "releaseYear": "2027",
-      "releaseDate": "16 лютого 2027",
-      "sortDate": "2027-02-16",
+      "releaseDate": "20 травня 2027",
+      "sortDate": "2027-05-20",
       "comingSoon": true,
       "status": "announced",
       "editorialRank": 10000000,
@@ -318,17 +318,17 @@
         }
       ],
       "website": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
-      "sourceUrl": "https://www.pcgamer.com/movies-tv/god-of-war-laufey-star-deborah-ann-woll-will-reprise-the-role-in-amazons-god-of-war-show/",
+      "sourceUrl": "https://blog.playstation.com/?p=423861",
       "storeUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
       "storeLabel": "Офіційна сторінка гри",
       "sources": [
         {
-          "name": "Офіційна сторінка",
-          "url": "https://www.playstation.com/en-us/games/god-of-war-laufey/"
+          "name": "PlayStation Blog · оновлення про дату",
+          "url": "https://blog.playstation.com/?p=423861"
         },
         {
-          "name": "Підтвердження / матеріал медіа",
-          "url": "https://www.pcgamer.com/movies-tv/god-of-war-laufey-star-deborah-ann-woll-will-reprise-the-role-in-amazons-god-of-war-show/"
+          "name": "PlayStation · офіційна сторінка",
+          "url": "https://www.playstation.com/en-us/games/god-of-war-laufey/"
         }
       ]
     },
