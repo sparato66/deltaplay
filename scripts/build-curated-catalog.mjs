@@ -11,6 +11,10 @@ for (const game of editorial.games) {
   if (!['2026', '2027', '2028', '2029', '2030', 'TBA'].includes(String(game.releaseYear))) throw new Error(`Unexpected release year for ${game.id}`);
   for (const source of game.sources) new URL(source.url);
 }
+for (const year of ['2026', '2027', '2028', '2029', '2030']) {
+  const count = editorial.games.filter((game) => String(game.releaseYear) === year).length;
+  if (count < 20) throw new Error(`Для ${year} року потрібно щонайменше 20 записів; знайдено ${count}.`);
+}
 const output = { updatedAt: new Date().toISOString(), source: 'Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа', sources: editorial.resources, games: editorial.games };
 await writeFile(new URL('../games.json', import.meta.url), `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Зібрано ${output.games.length} перевірених проєктів без агрегатора магазинів.`);
+console.log(`Зібрано ${output.games.length} редакційних записів; статуси чітко розділяють підтвердження та чутки.`);

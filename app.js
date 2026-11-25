@@ -58,7 +58,9 @@
     else list.sort((a, b) => importance(b) - importance(a) || a.title.localeCompare(b.title, 'uk'));
     $('#year-title').textContent = activeYear;
     $('#year-count').textContent = `${yearGames.length} ${yearGames.length === 1 ? 'ПРОЄКТ' : 'ПРОЄКТІВ'}`;
-    $('#year-summary').textContent = yearGames.length ? 'Великі підтверджені релізи, відсортовані за значущістю' : 'Поки немає підтверджених великих релізів для цього року';
+    const rumorCount = yearGames.filter((game) => game.status === 'rumor').length;
+    const releasedCount = yearGames.filter((game) => game.status === 'released').length;
+    $('#year-summary').textContent = releasedCount ? 'Релізи цього року · включно з уже випущеними' : rumorCount ? `Підтверджені проєкти та ${rumorCount} чуток — статус видно на картках` : 'Підтверджені релізи, відсортовані за значущістю';
     $('#visible-count').textContent = `Показано ${Math.min(shown, list.length)} з ${list.length}`;
     $('#empty').hidden = list.length !== 0;
     $('#empty').textContent = query ? 'За цим запитом нічого не знайшлося. Спробуйте іншу назву.' : 'Для цього року поки немає підтверджених масштабних релізів. Нові ігри з’являться тут після офіційного анонсу.';

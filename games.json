@@ -1,5 +1,8 @@
+Warning: truncated output (original token count: 48108)
+Total output lines: 4670
+
 {
-  "updatedAt": "2026-11-25T12:12:58.411Z",
+  "updatedAt": "2026-11-25T12:23:46.791Z",
   "source": "Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа",
   "sources": [
     {
@@ -1392,6 +1395,1478 @@
         {
           "name": "Embracer Group · план випусків",
           "url": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-requiem",
+      "title": "Resident Evil Requiem",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "CAPCOM"
+      ],
+      "publishers": [
+        "CAPCOM"
+      ],
+      "platforms": {},
+      "genres": [
+        "Горор на виживання"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.residentevil.com/requiem/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.residentevil.com/requiem/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.residentevil.com/requiem/"
+        },
+        {
+          "name": "Ігровий календар · релізи 202…18108 tokens truncated…ДТВЕРДЖЕНО",
+      "developers": [
+        "BioWare"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Наукова фантастика"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ea.com/games/mass-effect",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ea.com/games/mass-effect",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ea.com/games/mass-effect"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "intergalactic-rumor-2029",
+      "title": "Intergalactic: The Heretic Prophet",
+      "description": "Intergalactic: The Heretic Prophet — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Naughty Dog"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.naughtydog.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.naughtydog.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.naughtydog.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "od-rumor-2029",
+      "title": "OD",
+      "description": "OD — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Kojima Productions"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Горор"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.kojimaproductions.jp/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.kojimaproductions.jp/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.kojimaproductions.jp/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk-orion-rumor-2029",
+      "title": "Cyberpunk · Project Orion",
+      "description": "Cyberpunk · Project Orion — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "CD PROJEKT RED"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.cdprojektred.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.cdprojektred.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.cdprojektred.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "witcher-remake-rumor-2029",
+      "title": "The Witcher · Remake",
+      "description": "The Witcher · Remake — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Fool’s Theory"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.thewitcher.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.thewitcher.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.thewitcher.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "splinter-cell-remake-rumor-2029",
+      "title": "Splinter Cell · Remake",
+      "description": "Splinter Cell · Remake — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Toronto"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "ac-hexe-rumor-2029",
+      "title": "Assassin’s Creed · Codename Hexe",
+      "description": "Assassin’s Creed · Codename Hexe — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Montreal"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "judas-rumor-2029",
+      "title": "Judas",
+      "description": "Judas — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ghost Story Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ghoststorygames.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ghoststorygames.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ghoststorygames.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-eclipse-rumor-2029",
+      "title": "Star Wars Eclipse",
+      "description": "Star Wars Eclipse — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Quantic Dream"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.quanticdream.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.quanticdream.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.quanticdream.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-1943-rumor-2029",
+      "title": "Marvel 1943: Rise of Hydra",
+      "description": "Marvel 1943: Rise of Hydra — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Skydance New Media"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://skydance.com/games/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://skydance.com/games/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://skydance.com/games/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "project-007-rumor-2029",
+      "title": "Project 007",
+      "description": "Project 007 — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "IO Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ioi.dk/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ioi.dk/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ioi.dk/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-3-remaster-rumor-2029",
+      "title": "Fallout 3 · Remaster",
+      "description": "Fallout 3 · Remaster — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-5-rumor-2029",
+      "title": "Fallout 5",
+      "description": "Fallout 5 — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "elder-scrolls-vi-rumor-2030",
+      "title": "The Elder Scrolls VI",
+      "description": "The Elder Scrolls VI — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://elderscrolls.bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://elderscrolls.bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://elderscrolls.bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "gta-vi-pc-rumor-2030",
+      "title": "Grand Theft Auto VI · версія для ПК",
+      "description": "Grand Theft Auto VI · версія для ПК — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Rockstar Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Відкритий світ"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.rockstargames.com/VI",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.rockstargames.com/VI",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "kotor-remake-rumor-2030",
+      "title": "Star Wars: Knights of the Old Republic Remake",
+      "description": "Star Wars: Knights of the Old Republic Remake — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.starwars.com/games-apps",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.starwars.com/games-apps",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.starwars.com/games-apps"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-blade-rumor-2030",
+      "title": "Marvel’s Blade",
+      "description": "Marvel’s Blade — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Arkane Lyon"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.marvel.com/games",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.marvel.com/games",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.marvel.com/games"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "bioshock-4-rumor-2030",
+      "title": "BioShock · наступна гра серії",
+      "description": "BioShock · наступна гра серії — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "2K"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://2k.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://2k.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://2k.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-next-rumor-2030",
+      "title": "Mass Effect · наступна гра",
+      "description": "Mass Effect · наступна гра — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "BioWare"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Наукова фантастика"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ea.com/games/mass-effect",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ea.com/games/mass-effect",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ea.com/games/mass-effect"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "intergalactic-rumor-2030",
+      "title": "Intergalactic: The Heretic Prophet",
+      "description": "Intergalactic: The Heretic Prophet — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Naughty Dog"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.naughtydog.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.naughtydog.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.naughtydog.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "od-rumor-2030",
+      "title": "OD",
+      "description": "OD — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Kojima Productions"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Горор"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.kojimaproductions.jp/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.kojimaproductions.jp/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.kojimaproductions.jp/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk-orion-rumor-2030",
+      "title": "Cyberpunk · Project Orion",
+      "description": "Cyberpunk · Project Orion — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "CD PROJEKT RED"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.cdprojektred.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.cdprojektred.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.cdprojektred.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "witcher-remake-rumor-2030",
+      "title": "The Witcher · Remake",
+      "description": "The Witcher · Remake — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Fool’s Theory"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.thewitcher.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.thewitcher.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.thewitcher.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "splinter-cell-remake-rumor-2030",
+      "title": "Splinter Cell · Remake",
+      "description": "Splinter Cell · Remake — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Toronto"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "ac-hexe-rumor-2030",
+      "title": "Assassin’s Creed · Codename Hexe",
+      "description": "Assassin’s Creed · Codename Hexe — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Montreal"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "judas-rumor-2030",
+      "title": "Judas",
+      "description": "Judas — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ghost Story Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ghoststorygames.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ghoststorygames.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ghoststorygames.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-eclipse-rumor-2030",
+      "title": "Star Wars Eclipse",
+      "description": "Star Wars Eclipse — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Quantic Dream"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.quanticdream.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.quanticdream.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.quanticdream.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-1943-rumor-2030",
+      "title": "Marvel 1943: Rise of Hydra",
+      "description": "Marvel 1943: Rise of Hydra — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Skydance New Media"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://skydance.com/games/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://skydance.com/games/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://skydance.com/games/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "project-007-rumor-2030",
+      "title": "Project 007",
+      "description": "Project 007 — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "IO Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ioi.dk/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ioi.dk/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ioi.dk/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-3-remaster-rumor-2030",
+      "title": "Fallout 3 · Remaster",
+      "description": "Fallout 3 · Remaster — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-5-rumor-2030",
+      "title": "Fallout 5",
+      "description": "Fallout 5 — проєкт без офіційного року виходу. 2030 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2030",
+      "releaseDate": "ЧУТКА · можливий 2030 · не підтверджено",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-fate-old-republic-rumor-2029",
+      "title": "Star Wars: Fate of the Old Republic",
+      "description": "Star Wars: Fate of the Old Republic обговорюється як майбутній великий проєкт. Публічно представлена гра має орієнтир «до 2030 року», без точного року виходу. Рік 2029 — непідтверджене редакційне припущення, а не дата видавця.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Arcanaut Studios"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Проєкт без дати"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.gamefile.news/p/the-video-games-of-2029-and-2030",
+      "sourceUrl": "https://www.gamefile.news/p/the-video-games-of-2029-and-2030",
+      "storeUrl": "https://www.gamefile.news/p/the-video-games-of-2029-and-2030",
+      "storeLabel": "Джерело проєкту",
+      "sources": [
+        {
+          "name": "Анонс / офіційна сторінка",
+          "url": "https://www.gamefile.news/p/the-video-games-of-2029-and-2030"
+        },
+        {
+          "name": "Контекст чуток і календаря",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "grand-theft-auto-next-rumor-2030",
+      "title": "Grand Theft Auto · наступна частина (не анонсовано)",
+      "description": "Фанатське припущення про наступний великий випуск серії після GTA VI. Rockstar не анонсувала цю гру та не називала вікно виходу; 2030 рік — лише дуже віддалена спекуляція з мінімальною впевненістю.",
+      "releaseYear": "2030",
+      "releaseDate": "ФАНАТСЬКА СПЕКУЛЯЦІЯ · не анонсовано",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 100000,
+      "priority": 100000,
+      "priorityLabel": "СПЕКУЛЯЦІЯ · НЕ АНОНСОВАНО",
+      "developers": [
+        "Rockstar Games (не підтверджено)"
+      ],
+      "publishers": [
+        "Rockstar Games (не підтверджено)"
+      ],
+      "platforms": {},
+      "genres": [
+        "Відкритий світ"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.rockstargames.com/",
+      "sourceUrl": "https://www.rockstargames.com/",
+      "storeUrl": "https://www.rockstargames.com/",
+      "storeLabel": "Сайт Rockstar Games",
+      "sources": [
+        {
+          "name": "Сайт Rockstar Games · окремого анонсу немає",
+          "url": "https://www.rockstargames.com/"
+        },
+        {
+          "name": "Вікно 2030 року не підтверджено; фанатська спекуляція",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
         }
       ]
     }
