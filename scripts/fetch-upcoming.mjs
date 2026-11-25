@@ -25,6 +25,13 @@ function cleanText(html = '') {
 
 function releaseDate(raw) {
   const value = raw?.date?.trim() || '';
+  const ukrainian = value.match(/(\d{1,2})\s+([А-Яа-яІіЇїЄєҐґ]+)\.?\s+(20\d{2})/u);
+  if (ukrainian) {
+    const monthKey = ukrainian[2].toLocaleLowerCase('uk').replace(/\.$/, '');
+    const months = [['січ', '01'], ['лют', '02'], ['бер', '03'], ['квіт', '04'], ['трав', '05'], ['черв', '06'], ['лип', '07'], ['серп', '08'], ['вер', '09'], ['жовт', '10'], ['листоп', '11'], ['груд', '12']];
+    const month = months.find(([prefix]) => monthKey.startsWith(prefix))?.[1];
+    if (month) return { label: value, sort: `${ukrainian[3]}-${month}-${ukrainian[1].padStart(2, '0')}` };
+  }
   const parsed = Date.parse(value);
   if (!value || /coming soon|to be announced|tba|не визначено/i.test(value)) return { label: 'Дата виходу уточнюється', sort: '9999-12-31' };
   if (!Number.isNaN(parsed)) return { label: new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(parsed), sort: new Date(parsed).toISOString().slice(0, 10) };
