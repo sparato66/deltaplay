@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 48108)
-Total output lines: 4670
-
 {
   "updatedAt": "2026-11-25T12:23:46.791Z",
   "source": "Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа",
@@ -1435,7 +1432,1806 @@ Total output lines: 4670
           "url": "https://www.residentevil.com/requiem/"
         },
         {
-          "name": "Ігровий календар · релізи 202…18108 tokens truncated…ДТВЕРДЖЕНО",
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "crimson-desert",
+      "title": "Crimson Desert",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Pearl Abyss"
+      ],
+      "publishers": [
+        "Pearl Abyss"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн-пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://crimsondesert.pearlabyss.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://crimsondesert.pearlabyss.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://crimsondesert.pearlabyss.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "forza-horizon-6",
+      "title": "Forza Horizon 6",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Playground Games"
+      ],
+      "publishers": [
+        "Playground Games"
+      ],
+      "platforms": {},
+      "genres": [
+        "Перегони"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://forza.net/horizon/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://forza.net/horizon/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://forza.net/horizon/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "007-first-light",
+      "title": "007 First Light",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "IO Interactive"
+      ],
+      "publishers": [
+        "IO Interactive"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ioi.dk/007firstlight/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.ioi.dk/007firstlight/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.ioi.dk/007firstlight/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "pragmata",
+      "title": "PRAGMATA",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "CAPCOM"
+      ],
+      "publishers": [
+        "CAPCOM"
+      ],
+      "platforms": {},
+      "genres": [
+        "Наукова фантастика"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://pragmata.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://pragmata.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://pragmata.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "gears-of-war-e-day",
+      "title": "Gears of War: E-Day",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "The Coalition"
+      ],
+      "publishers": [
+        "The Coalition"
+      ],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.gearsofwar.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.gearsofwar.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.gearsofwar.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "halo-campaign-evolved",
+      "title": "Halo: Campaign Evolved",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Halo Studios"
+      ],
+      "publishers": [
+        "Halo Studios"
+      ],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.halowaypoint.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.halowaypoint.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.halowaypoint.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "marvels-wolverine",
+      "title": "Marvel’s Wolverine",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Insomniac Games"
+      ],
+      "publishers": [
+        "Insomniac Games"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.playstation.com/en-us/games/marvels-wolverine/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.playstation.com/en-us/games/marvels-wolverine/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.playstation.com/en-us/games/marvels-wolverine/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "call-of-duty-modern-warfare-4",
+      "title": "Call of Duty: Modern Warfare 4",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Infinity Ward"
+      ],
+      "publishers": [
+        "Infinity Ward"
+      ],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.callofduty.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.callofduty.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.callofduty.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "phantom-blade-zero",
+      "title": "Phantom Blade Zero",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "S-GAME"
+      ],
+      "publishers": [
+        "S-GAME"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.phantombladezero.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.phantombladezero.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.phantombladezero.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "control-resonant",
+      "title": "Control Resonant",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Remedy Entertainment"
+      ],
+      "publishers": [
+        "Remedy Entertainment"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.remedygames.com/games/control-resonant",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.remedygames.com/games/control-resonant",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.remedygames.com/games/control-resonant"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "blood-of-dawnwalker",
+      "title": "The Blood of Dawnwalker",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Rebel Wolves"
+      ],
+      "publishers": [
+        "Rebel Wolves"
+      ],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.dawnwalkergame.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.dawnwalkergame.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.dawnwalkergame.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-zero-company",
+      "title": "Star Wars: Zero Company",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Bit Reactor"
+      ],
+      "publishers": [
+        "Bit Reactor"
+      ],
+      "platforms": {},
+      "genres": [
+        "Стратегія"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ea.com/games/starwars/zero-company",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.ea.com/games/starwars/zero-company",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.ea.com/games/starwars/zero-company"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "xenoblade-chronicles-3-switch2",
+      "title": "Xenoblade Chronicles 3 · Switch 2 Edition",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Monolith Soft"
+      ],
+      "publishers": [
+        "Monolith Soft"
+      ],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.nintendo.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.nintendo.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.nintendo.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "monster-hunter-wilds-switch2",
+      "title": "Monster Hunter Wilds · Switch 2 Edition",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "CAPCOM"
+      ],
+      "publishers": [
+        "CAPCOM"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.monsterhunter.com/wilds/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.monsterhunter.com/wilds/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.monsterhunter.com/wilds/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "attack-on-titan-3",
+      "title": "Attack on Titan 3",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Koei Tecmo"
+      ],
+      "publishers": [
+        "Koei Tecmo"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.koeitecmoamerica.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.koeitecmoamerica.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.koeitecmoamerica.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "professor-layton-new-world",
+      "title": "Professor Layton and the New World of Steam",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "LEVEL-5"
+      ],
+      "publishers": [
+        "LEVEL-5"
+      ],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.level5.co.jp/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.level5.co.jp/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.level5.co.jp/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "path-of-exile-2-full-release",
+      "title": "Path of Exile 2 · повний реліз",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Grinding Gear Games"
+      ],
+      "publishers": [
+        "Grinding Gear Games"
+      ],
+      "platforms": {},
+      "genres": [
+        "Екшн-RPG"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.pathofexile.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.pathofexile.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.pathofexile.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "rayman-legends-retold",
+      "title": "Rayman Legends Retold",
+      "description": "Проєкт вийшов у 2026 році. Цей запис зберігає його у річному каталозі; він уже не є майбутнім релізом.",
+      "releaseYear": "2026",
+      "releaseDate": "Реліз у 2026 році · уже вийшла",
+      "sortDate": "2026-12-30",
+      "comingSoon": true,
+      "status": "released",
+      "editorialRank": 6000000,
+      "priority": 6000000,
+      "priorityLabel": "ВЖЕ ВИЙШЛА",
+      "developers": [
+        "Ubisoft"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
+      "platforms": {},
+      "genres": [
+        "Платформер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Офіційна сторінка",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Ігровий календар · релізи 2026",
+          "url": "https://www.videogameschronicle.com/guide/upcoming-game-release-dates-schedule/"
+        }
+      ]
+    },
+    {
+      "id": "elder-scrolls-vi-rumor-2028",
+      "title": "The Elder Scrolls VI",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://elderscrolls.bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://elderscrolls.bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://elderscrolls.bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "gta-vi-pc-rumor-2028",
+      "title": "Grand Theft Auto VI · версія для ПК",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Rockstar Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Відкритий світ"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.rockstargames.com/VI",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.rockstargames.com/VI",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "kotor-remake-rumor-2028",
+      "title": "Star Wars: Knights of the Old Republic Remake",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.starwars.com/games-apps",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.starwars.com/games-apps",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.starwars.com/games-apps"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-blade-rumor-2028",
+      "title": "Marvel’s Blade",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Arkane Lyon"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.marvel.com/games",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.marvel.com/games",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.marvel.com/games"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "bioshock-4-rumor-2028",
+      "title": "BioShock · наступна гра серії",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "2K"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://2k.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://2k.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://2k.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-next-rumor-2028",
+      "title": "Mass Effect · наступна гра",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "BioWare"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Наукова фантастика"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ea.com/games/mass-effect",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ea.com/games/mass-effect",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ea.com/games/mass-effect"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "intergalactic-rumor-2028",
+      "title": "Intergalactic: The Heretic Prophet",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Naughty Dog"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.naughtydog.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.naughtydog.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.naughtydog.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "od-rumor-2028",
+      "title": "OD",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Kojima Productions"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Горор"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.kojimaproductions.jp/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.kojimaproductions.jp/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.kojimaproductions.jp/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk-orion-rumor-2028",
+      "title": "Cyberpunk · Project Orion",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "CD PROJEKT RED"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.cdprojektred.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.cdprojektred.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.cdprojektred.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "witcher-remake-rumor-2028",
+      "title": "The Witcher · Remake",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Fool’s Theory"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.thewitcher.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.thewitcher.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.thewitcher.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "splinter-cell-remake-rumor-2028",
+      "title": "Splinter Cell · Remake",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Toronto"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "ac-hexe-rumor-2028",
+      "title": "Assassin’s Creed · Codename Hexe",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ubisoft Montreal"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ubisoft.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ubisoft.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ubisoft.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "judas-rumor-2028",
+      "title": "Judas",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Ghost Story Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ghoststorygames.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ghoststorygames.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ghoststorygames.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-eclipse-rumor-2028",
+      "title": "Star Wars Eclipse",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Quantic Dream"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Пригода"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.quanticdream.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.quanticdream.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.quanticdream.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-1943-rumor-2028",
+      "title": "Marvel 1943: Rise of Hydra",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Skydance New Media"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://skydance.com/games/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://skydance.com/games/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://skydance.com/games/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "project-007-rumor-2028",
+      "title": "Project 007",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "IO Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Стелс-екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.ioi.dk/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.ioi.dk/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.ioi.dk/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-3-remaster-rumor-2028",
+      "title": "Fallout 3 · Remaster",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "fallout-5-rumor-2028",
+      "title": "Fallout 5",
+      "description": "Проєкт офіційно анонсований або широко обговорюється, але реліз у 2028 році не підтверджено. Рік у цій картці — редакційний прогноз із низькою впевненістю; його не слід сприймати як дату видавця.",
+      "releaseYear": "2028",
+      "releaseDate": "ЧУТКА · можливий 2028 · не підтверджено",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 2000000,
+      "priority": 2000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "diablo-v",
+      "title": "Diablo V",
+      "description": "Diablo V — масштабний проєкт від Blizzard Entertainment. Весна 2029 · підтверджено Blizzard підтверджене офіційним анонсом; точну дату й інші деталі ще не оголосили.",
+      "releaseYear": "2029",
+      "releaseDate": "Весна 2029 · підтверджено Blizzard",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "АНОНСОВАНО · РІК ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Blizzard Entertainment"
+      ],
+      "publishers": [
+        "Blizzard Entertainment"
+      ],
+      "platforms": {},
+      "genres": [
+        "Майбутній реліз"
+      ],
+      "header": "https://img.youtube.com/vi/GxCN_AKYtts/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/GxCN_AKYtts/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/GxCN_AKYtts/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/GxCN_AKYtts/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/GxCN_AKYtts/maxresdefault.jpg",
+          "caption": "Кадр з офіційного анонсу"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний тизер",
+          "youtube": "GxCN_AKYtts"
+        }
+      ],
+      "website": "https://news.blizzard.com/en-us/article/24301509/diablos-next-era-revealed-at-blizzcon-2026-opening-ceremonies-recap",
+      "sourceUrl": "https://news.blizzard.com/en-us/article/24301509/diablos-next-era-revealed-at-blizzcon-2026-opening-ceremonies-recap",
+      "storeUrl": "https://news.blizzard.com/en-us/article/24301509/diablos-next-era-revealed-at-blizzcon-2026-opening-ceremonies-recap",
+      "storeLabel": "Офіційне повідомлення",
+      "sources": [
+        {
+          "name": "Офіційне повідомлення",
+          "url": "https://news.blizzard.com/en-us/article/24301509/diablos-next-era-revealed-at-blizzcon-2026-opening-ceremonies-recap"
+        }
+      ]
+    },
+    {
+      "id": "starcraft-open-world",
+      "title": "StarCraft · нова гра",
+      "description": "StarCraft · нова гра — масштабний проєкт від Blizzard Entertainment. Весна 2030 · підтверджено Blizzard підтверджене офіційним анонсом; точну дату й інші деталі ще не оголосили.",
+      "releaseYear": "2030",
+      "releaseDate": "Весна 2030 · підтверджено Blizzard",
+      "sortDate": "2030-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "АНОНСОВАНО · РІК ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Blizzard Entertainment"
+      ],
+      "publishers": [
+        "Blizzard Entertainment"
+      ],
+      "platforms": {},
+      "genres": [
+        "Майбутній реліз"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony",
+      "sourceUrl": "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony",
+      "storeUrl": "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony",
+      "storeLabel": "Офіційне повідомлення",
+      "sources": [
+        {
+          "name": "Офіційне повідомлення",
+          "url": "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony"
+        }
+      ]
+    },
+    {
+      "id": "elder-scrolls-vi-rumor-2029",
+      "title": "The Elder Scrolls VI",
+      "description": "The Elder Scrolls VI — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Bethesda"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://elderscrolls.bethesda.net/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://elderscrolls.bethesda.net/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://elderscrolls.bethesda.net/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "gta-vi-pc-rumor-2029",
+      "title": "Grand Theft Auto VI · версія для ПК",
+      "description": "Grand Theft Auto VI · версія для ПК — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Rockstar Games"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Відкритий світ"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.rockstargames.com/VI",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.rockstargames.com/VI",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.rockstargames.com/VI"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "kotor-remake-rumor-2029",
+      "title": "Star Wars: Knights of the Old Republic Remake",
+      "description": "Star Wars: Knights of the Old Republic Remake — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Рольова гра"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.starwars.com/games-apps",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.starwars.com/games-apps",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.starwars.com/games-apps"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "marvel-blade-rumor-2029",
+      "title": "Marvel’s Blade",
+      "description": "Marvel’s Blade — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "Arkane Lyon"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.marvel.com/games",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://www.marvel.com/games",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://www.marvel.com/games"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "bioshock-4-rumor-2029",
+      "title": "BioShock · наступна гра серії",
+      "description": "BioShock · наступна гра серії — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
+      "developers": [
+        "2K"
+      ],
+      "publishers": [],
+      "platforms": {},
+      "genres": [
+        "Шутер"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://2k.com/",
+      "sourceUrl": "https://www.gamesradar.com/video-game-release-dates/",
+      "storeUrl": "https://2k.com/",
+      "storeLabel": "Сайт студії / видавця",
+      "sources": [
+        {
+          "name": "Офіційна сторінка проєкту або студії",
+          "url": "https://2k.com/"
+        },
+        {
+          "name": "Календар ігрових релізів · лише контекст, рік не підтверджує",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        },
+        {
+          "name": "Оцінка релізного календаря · не є підтвердженням",
+          "url": "https://www.gamesradar.com/video-game-release-dates/"
+        }
+      ]
+    },
+    {
+      "id": "mass-effect-next-rumor-2029",
+      "title": "Mass Effect · наступна гра",
+      "description": "Mass Effect · наступна гра — проєкт без офіційного року виходу. 2029 тут зазначено лише як непідтверджене альтернативне чуткове вікно; студія його не оголошувала.",
+      "releaseYear": "2029",
+      "releaseDate": "ЧУТКА · можливий 2029 · не підтверджено",
+      "sortDate": "2029-12-31",
+      "comingSoon": true,
+      "status": "rumor",
+      "editorialRank": 1000000,
+      "priority": 1000000,
+      "priorityLabel": "ЧУТКА · РІК НЕ ПІДТВЕРДЖЕНО",
       "developers": [
         "BioWare"
       ],
