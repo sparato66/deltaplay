@@ -1,13 +1,10 @@
-name: Оновлення та публікація Дельта Гейм
+name: Публікація Дельта Гейм
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '17 */12 * * *'
   workflow_dispatch:
 permissions:
-  actions: read
-  contents: write
+  contents: read
   pages: write
   id-token: write
 concurrency:
@@ -24,26 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Зібрати стрічку майбутніх ігор зі Steam
-        if: github.actor != 'github-actions[bot]'
-        run: node scripts/fetch-upcoming.mjs
+      - name: Перевірити й зібрати редакційний каталог
+        run: node scripts/build-curated-catalog.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
-      - name: Дочекатися індексації артефакту Pages
-        run: sleep 8
       - id: deployment
         uses: actions/deploy-pages@v4
-      - name: Зберегти оновлену стрічку в репозиторії
-        if: always() && github.actor != 'github-actions[bot]'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add games.json
-          if git diff --cached --quiet; then
-            echo "Стрічка не змінилася"
-          else
-            git commit -m "Оновити стрічку майбутніх ігор"
-            git push origin HEAD:main
-          fi

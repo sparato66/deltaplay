@@ -18,7 +18,7 @@
   const card = (game, index) => {
     const image = game.poster || game.header || '';
     const style = image ? '' : `style="--card-hue:${(index * 47 + 278) % 360}"`;
-    const details = game.description || 'Сторінку гри вже відкрито у Steam. Деталі будуть доповнюватися, щойно їх оголосить студія.';
+    const details = game.description || 'Редакційне досьє про підтверджений великий реліз.';
     const date = game.releaseDate || `${gameYear(game)} · дата уточнюється`;
     return `<article class="game-card" ${style}>
       <a class="game-art" href="game.html?id=${encodeURIComponent(game.id)}" aria-label="Деталі гри ${escapeHTML(game.title)}">
@@ -39,7 +39,7 @@
     $('#year-tabs').innerHTML = YEARS.map((year) => {
       const count = groupFor(year).length;
       const active = year === activeYear;
-      return `<button class="year-tab${active ? ' active' : ''}" type="button" role="tab" aria-selected="${active}" aria-controls="feed" data-year="${year}"><span>${year}</span><small>${count} / 50</small><i></i></button>`;
+      return `<button class="year-tab${active ? ' active' : ''}" type="button" role="tab" aria-selected="${active}" aria-controls="feed" data-year="${year}"><span>${year}</span><small>${count} ${count === 1 ? 'гра' : 'ігор'}</small><i></i></button>`;
     }).join('');
     $('#year-tabs').querySelectorAll('[data-year]').forEach((button) => button.addEventListener('click', () => {
       activeYear = button.dataset.year;
@@ -57,10 +57,11 @@
     else if (sort.value === 'date') list.sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title, 'uk'));
     else list.sort((a, b) => importance(b) - importance(a) || a.title.localeCompare(b.title, 'uk'));
     $('#year-title').textContent = activeYear;
-    $('#year-count').textContent = `${yearGames.length} / 50`;
-    $('#year-summary').textContent = yearGames.length === 50 ? '50 ігор — від великих серій до нових відкриттів' : `${yearGames.length} перевірених сторінок; решта ще не підтверджена`;
+    $('#year-count').textContent = `${yearGames.length} ${yearGames.length === 1 ? 'ПРОЄКТ' : 'ПРОЄКТІВ'}`;
+    $('#year-summary').textContent = yearGames.length ? 'Великі підтверджені релізи, відсортовані за значущістю' : 'Поки немає підтверджених великих релізів для цього року';
     $('#visible-count').textContent = `Показано ${Math.min(shown, list.length)} з ${list.length}`;
     $('#empty').hidden = list.length !== 0;
+    $('#empty').textContent = query ? 'За цим запитом нічого не знайшлося. Спробуйте іншу назву.' : 'Для цього року поки немає підтверджених масштабних релізів. Нові ігри з’являться тут після офіційного анонсу.';
     $('#error').hidden = games.length !== 0;
     $('#load-more').hidden = list.length <= shown;
     feed.innerHTML = list.slice(0, shown).map(card).join('');
@@ -82,7 +83,9 @@
     return response.json();
   }).then((data) => {
     games = (data.games || []).filter((game) => game.comingSoon === true);
-    $('#update-note').textContent = data.updatedAt ? `ЗВІРЕНО ${new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(data.updatedAt))}` : 'ДАНІ ОНОВЛЮЮТЬСЯ АВТОМАТИЧНО';
+    const sourceList = $('#source-list');
+    if (sourceList) sourceList.innerHTML = (data.sources || []).map((source) => `<a href="${escapeHTML(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(source.name)} ↗</a>`).join('');
+    $('#update-note').textContent = data.updatedAt ? `ЗВІРЕНО ${new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(data.updatedAt))}` : 'РЕДАКЦІЙНА ДОБІРКА';
     renderSpotlight();
     render();
   }).catch(() => {

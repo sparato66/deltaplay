@@ -1,94 +1,583 @@
 {
-  "source": "Офіційні сайти видавців і платформ",
+  "source": "Офіційні видавці, студії, платформи та 20 ігрових медіа/довідників; дати звіряються з первинними анонсами",
+  "resources": [
+    {
+      "name": "CD PROJEKT RED",
+      "url": "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-third-quarter-of-2026/"
+    },
+    {
+      "name": "PlayStation Blog",
+      "url": "https://blog.playstation.com/2026/09/03/metro-2039-launches-february-4-2027-ps5-pro-gameplay-revealed/"
+    },
+    {
+      "name": "Xbox Wire",
+      "url": "https://news.xbox.com/en-us/2026/06/07/xbox-games-showcase-2026-recap-everything-announced/"
+    },
+    {
+      "name": "Square Enix Press Hub",
+      "url": "https://press.es.square-enix.com/FINAL-FANTASY-VII-REVELATION-ERSCHEINT-AM-8-APRIL-2027-PHYSISCH-UND-DI"
+    },
+    {
+      "name": "PLAION Press Server",
+      "url": "https://press.plaion.com/DAWN-OF-WAR-IV-NOW-LAUNCHES-ON-DECEMBER-3"
+    },
+    {
+      "name": "Deep Silver",
+      "url": "https://www.deepsilver.com/games/dawn-of-war-iv"
+    },
+    {
+      "name": "Fable official",
+      "url": "https://www.fablethegame.com/news/fable-faq?pubDate=20260129"
+    },
+    {
+      "name": "PlayStation Store",
+      "url": "https://store.playstation.com/en-us/concept/10014491"
+    },
+    {
+      "name": "Embracer Group",
+      "url": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf"
+    },
+    {
+      "name": "Igromania",
+      "url": "https://www.igromania.ru/news/166793/metro-2039-poluchila-novyij-mrachnyij-trejler-i-okno-reliza-v-fevrale-2027-go/"
+    },
+    {
+      "name": "GamesRadar",
+      "url": "https://www.gamesradar.com/video-game-release-dates/"
+    },
+    {
+      "name": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/new-pc-games-2027/"
+    },
+    {
+      "name": "GameSpot",
+      "url": "https://www.gamespot.com/articles/2027-upcoming-games-release-schedule/"
+    },
+    {
+      "name": "Gaming Route",
+      "url": "https://gamingroute.com/games-coming-out-2027/"
+    },
+    {
+      "name": "Games.gg",
+      "url": "https://games.gg/lists/upcoming/2027/"
+    },
+    {
+      "name": "Game Over Interactive",
+      "url": "https://gameoverinteractive.com/upcoming/2027"
+    },
+    {
+      "name": "TechRadar Gaming",
+      "url": "https://www.techradar.com/gaming/there-is-a-liar-in-these-tunnels-metro-2039-gets-new-action-packed-trailer-teasing-first-person-stealth-action-gameplay-a-new-stealth-weapon-and-a-february-2027-release-window"
+    },
+    {
+      "name": "Windows Central",
+      "url": "https://www.windowscentral.com/gaming/all-the-xbox-and-pc-game-announcements-at-gamescom-2026-opening-night-live-as-it-happens"
+    },
+    {
+      "name": "PlayStation (game pages)",
+      "url": "https://www.playstation.com/en-us/games/god-of-war-laufey/"
+    },
+    {
+      "name": "Square Enix IR",
+      "url": "https://www.hd.square-enix.com/eng/ir/pdf/20261111_01_en.pdf"
+    }
+  ],
   "games": [
+    {
+      "id": "dawn-of-war-iv",
+      "title": "Warhammer 40,000: Dawn of War IV",
+      "description": "Повернення великої стратегії у всесвіт Warhammer 40,000. KING Art Games готує масштабну кампанію за чотири фракції, включно з Космічними десантниками, Орками, Некронами й Адептус Механікус. Вихід на ПК запланований на 3 грудня 2026 року.",
+      "releaseYear": "2026",
+      "releaseDate": "3 грудня 2026",
+      "sortDate": "2026-12-03",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9300000,
+      "priority": 9300000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "KING Art Games"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
+      "platforms": {
+        "windows": true
+      },
+      "genres": [
+        "Стратегія в реальному часі",
+        "Warhammer 40,000"
+      ],
+      "header": "https://www.deepsilver.com/games/dawn-of-war-iv",
+      "poster": "https://www.deepsilver.com/games/dawn-of-war-iv",
+      "hero": "https://www.deepsilver.com/games/dawn-of-war-iv",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/YVmXDMM48zg/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/YVmXDMM48zg/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://www.deepsilver.com/games/dawn-of-war-iv",
+          "path_thumbnail": "https://www.deepsilver.com/games/dawn-of-war-iv",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "YVmXDMM48zg"
+        }
+      ],
+      "website": "https://www.deepsilver.com/games/dawn-of-war-iv",
+      "sourceUrl": "https://press.plaion.com/DAWN-OF-WAR-IV-NOW-LAUNCHES-ON-DECEMBER-3",
+      "storeUrl": "https://www.deepsilver.com/games/dawn-of-war-iv",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.deepsilver.com/games/dawn-of-war-iv"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://press.plaion.com/DAWN-OF-WAR-IV-NOW-LAUNCHES-ON-DECEMBER-3"
+        }
+      ]
+    },
+    {
+      "id": "metro-2039",
+      "title": "Metro 2039",
+      "description": "Нова глава постапокаліптичної серії від 4A Games. Похмурий шутер повертає гравців у московське метро та продовжує традицію сюжетної кампанії, виживання й атмосферного дослідження. Видавець підтвердив дату — 4 лютого 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "4 лютого 2027",
+      "sortDate": "2027-02-04",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9800000,
+      "priority": 9800000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "4A Games"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Шутер від першої особи",
+        "Пригода"
+      ],
+      "header": "https://www.deepsilver.com/games/metro2039",
+      "poster": "https://www.deepsilver.com/games/metro2039",
+      "hero": "https://www.deepsilver.com/games/metro2039",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/rxfWaSg_-hc/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/rxfWaSg_-hc/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://www.deepsilver.com/games/metro2039",
+          "path_thumbnail": "https://www.deepsilver.com/games/metro2039",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "rxfWaSg_-hc"
+        }
+      ],
+      "website": "https://www.deepsilver.com/games/metro2039",
+      "sourceUrl": "https://blog.playstation.com/2026/09/03/metro-2039-launches-february-4-2027-ps5-pro-gameplay-revealed/",
+      "storeUrl": "https://www.deepsilver.com/games/metro2039",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.deepsilver.com/games/metro2039"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://blog.playstation.com/2026/09/03/metro-2039-launches-february-4-2027-ps5-pro-gameplay-revealed/"
+        }
+      ]
+    },
+    {
+      "id": "tomb-raider-legacy-of-atlantis",
+      "title": "Tomb Raider: Legacy of Atlantis",
+      "description": "Переосмислення пригоди Лари Крофт 1996 року, створене Crystal Dynamics разом із Flying Wild Hog. Проєкт перебудовує культову подорож до Атлантиди на Unreal Engine 5 і додає нові сюжетні елементи. Дата виходу — 12 лютого 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "12 лютого 2027",
+      "sortDate": "2027-02-12",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9700000,
+      "priority": 9700000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "Crystal Dynamics · Flying Wild Hog"
+      ],
+      "publishers": [
+        "Amazon Game Studios"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Пригода",
+        "Ремейк"
+      ],
+      "header": "https://gmedia.playstation.com/is/image/SIEPDC/Tomb-Raider-LoA-hero-desktop-01-en-27may26?$100px$=",
+      "poster": "https://gmedia.playstation.com/is/image/SIEPDC/Tomb-Raider-LoA-hero-desktop-01-en-27may26?$100px$=",
+      "hero": "https://gmedia.playstation.com/is/image/SIEPDC/Tomb-Raider-LoA-hero-desktop-01-en-27may26?$100px$=",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/0wEjbSYNUM8/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/0wEjbSYNUM8/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Tomb-Raider-LoA-hero-desktop-01-en-27may26?$100px$=",
+          "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Tomb-Raider-LoA-hero-desktop-01-en-27may26?$100px$=",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "0wEjbSYNUM8"
+        }
+      ],
+      "website": "https://www.playstation.com/en-us/games/tomb-raider-legacy-of-atlantis/",
+      "sourceUrl": "https://blog.playstation.com/2026/06/02/tomb-raider-legacy-of-atlantis-launches-feb-12-2027-on-ps5/",
+      "storeUrl": "https://www.playstation.com/en-us/games/tomb-raider-legacy-of-atlantis/",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.playstation.com/en-us/games/tomb-raider-legacy-of-atlantis/"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://blog.playstation.com/2026/06/02/tomb-raider-legacy-of-atlantis-launches-feb-12-2027-on-ps5/"
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-laufey",
+      "title": "God of War: Laufey",
+      "description": "Нова велика пригода у всесвіті God of War від Santa Monica Studio. Гра розповідає про Фей в потойбічному світі Everywhen і розширює міфологію серії. PlayStation підтвердила вихід на PS5 16 лютого 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "16 лютого 2027",
+      "sortDate": "2027-02-16",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "Santa Monica Studio"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "platforms": {
+        "playstation5": true
+      },
+      "genres": [
+        "Екшн",
+        "Пригода"
+      ],
+      "header": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "poster": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "hero": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/HLMX2w3cwuE/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+          "path_thumbnail": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "HLMX2w3cwuE"
+        }
+      ],
+      "website": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
+      "sourceUrl": "https://www.pcgamer.com/movies-tv/god-of-war-laufey-star-deborah-ann-woll-will-reprise-the-role-in-amazons-god-of-war-show/",
+      "storeUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.playstation.com/en-us/games/god-of-war-laufey/"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://www.pcgamer.com/movies-tv/god-of-war-laufey-star-deborah-ann-woll-will-reprise-the-role-in-amazons-god-of-war-show/"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "title": "Fable",
+      "description": "Повернення культової рольової серії від Playground Games. Нова пригода перенесе гравців до казкового Альбіону з відкритим світом, гумором і системою наслідків виборів. Реліз відбудеться 23 лютого 2027 року на Xbox Series, PlayStation 5 та ПК.",
+      "releaseYear": "2027",
+      "releaseDate": "23 лютого 2027",
+      "sortDate": "2027-02-23",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9900000,
+      "priority": 9900000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "Playground Games"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Рольова гра",
+        "Відкритий світ"
+      ],
+      "header": "https://pgfableweqzl6jpbr734gosa.blob.core.windows.net/blobpgfablewe-qzl6jpbr734go/uploads/massive_holland_hero_16x9_b28c45c830.png",
+      "poster": "https://pgfableweqzl6jpbr734gosa.blob.core.windows.net/blobpgfablewe-qzl6jpbr734go/uploads/massive_holland_hero_16x9_b28c45c830.png",
+      "hero": "https://pgfableweqzl6jpbr734gosa.blob.core.windows.net/blobpgfablewe-qzl6jpbr734go/uploads/massive_holland_hero_16x9_b28c45c830.png",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/3iW1i78zFvk/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/3iW1i78zFvk/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://pgfableweqzl6jpbr734gosa.blob.core.windows.net/blobpgfablewe-qzl6jpbr734go/uploads/massive_holland_hero_16x9_b28c45c830.png",
+          "path_thumbnail": "https://pgfableweqzl6jpbr734gosa.blob.core.windows.net/blobpgfablewe-qzl6jpbr734go/uploads/massive_holland_hero_16x9_b28c45c830.png",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "3iW1i78zFvk"
+        }
+      ],
+      "website": "https://www.fablethegame.com/",
+      "sourceUrl": "https://news.xbox.com/en-us/2026/06/07/xbox-games-showcase-2026-recap-everything-announced/",
+      "storeUrl": "https://www.fablethegame.com/",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.fablethegame.com/"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://news.xbox.com/en-us/2026/06/07/xbox-games-showcase-2026-recap-everything-announced/"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-vii-revelation",
+      "title": "Final Fantasy VII Revelation",
+      "description": "Завершальна частина трилогії Final Fantasy VII Remake від Square Enix. Подорож Cloud та його команди виходить на фінальне протистояння із Sephiroth; видавець підтвердив одночасний реліз 8 квітня 2027 року на PS5, Xbox Series, Switch 2 та ПК.",
+      "releaseYear": "2027",
+      "releaseDate": "8 квітня 2027",
+      "sortDate": "2027-04-08",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "Square Enix"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Рольова гра",
+        "Екшн"
+      ],
+      "header": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/Bb0UNmbBH3Q/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/Bb0UNmbBH3Q/maxresdefault.jpg",
+          "caption": "Офіційний ключовий арт"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "Bb0UNmbBH3Q"
+        }
+      ],
+      "website": "https://www.jp.square-enix.com/ffvii_revelation/",
+      "sourceUrl": "https://blog.playstation.com/2026/09/03/final-fantasy-vii-revelation-launches-on-ps5-april-8-2027/",
+      "storeUrl": "https://www.jp.square-enix.com/ffvii_revelation/",
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.jp.square-enix.com/ffvii_revelation/"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://blog.playstation.com/2026/09/03/final-fantasy-vii-revelation-launches-on-ps5-april-8-2027/"
+        }
+      ]
+    },
     {
       "id": "the-witcher-4",
       "title": "The Witcher IV",
-      "description": "Початок нової саги у відкритому світі. Цірі вирушає власним шляхом, щоб стати професійною мисливицею на чудовиськ. CD PROJEKT RED підтвердила цільове вікно виходу — 2028 рік.",
+      "description": "Початок нової саги у відкритому світі: Цірі вирушає власним шляхом як професійна мисливиця на чудовиськ. CD PROJEKT RED назвала 2028 рік цільовим вікном, але точної дати й повного списку платформ поки немає.",
       "releaseYear": "2028",
       "releaseDate": "2028 · цільове вікно студії",
       "sortDate": "2028-12-31",
       "comingSoon": true,
       "status": "announced",
-      "editorialRank": 9000000,
-      "priority": 9000000,
-      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ РОКУ",
-      "developers": ["CD PROJEKT RED"],
-      "publishers": ["CD PROJEKT"],
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "CD PROJEKT RED"
+      ],
+      "publishers": [
+        "CD PROJEKT"
+      ],
       "platforms": {},
-      "genres": ["Рольова гра", "Відкритий світ"],
+      "genres": [
+        "Рольова гра",
+        "Відкритий світ"
+      ],
       "header": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
       "poster": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
       "hero": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
       "screenshots": [
-        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/00_The_Witcher_4_UE5_tech_demo_PS5_Ciri___Kovir_Vista_CLEAN_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/00_The_Witcher_4_UE5_tech_demo_PS5_Ciri___Kovir_Vista_CLEAN_q90_680x680.jpeg", "caption": "Кадр техдемо Unreal Engine 5 — не фінальний геймплей"},
-        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/f27b7dc412991abab953dfab1b208746_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/f27b7dc412991abab953dfab1b208746_q90_680x680.jpeg", "caption": "Офіційний матеріал CD PROJEKT RED"},
-        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/3e86913bded1cded1f46aaf33e16abeb_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/3e86913bded1cded1f46aaf33e16abeb_q90_680x680.jpeg", "caption": "Офіційний матеріал CD PROJEKT RED"}
+        {
+          "path_full": "https://img.youtube.com/vi/eH7ZFebKMYk/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/eH7ZFebKMYk/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        },
+        {
+          "path_full": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
+          "path_thumbnail": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
+          "caption": "Офіційний ключовий арт"
+        }
       ],
-      "trailers": [{"name": "Cinematic Reveal Trailer · PlayStation", "youtube": "eH7ZFebKMYk"}],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "eH7ZFebKMYk"
+        }
+      ],
       "website": "https://www.thewitcher.com/_next/witcher4",
       "sourceUrl": "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-third-quarter-of-2026/",
       "storeUrl": "https://www.thewitcher.com/_next/witcher4",
-      "storeLabel": "Офіційна сторінка The Witcher IV"
+      "storeLabel": "Офіційна сторінка гри",
+      "sources": [
+        {
+          "name": "Офіційна сторінка",
+          "url": "https://www.thewitcher.com/_next/witcher4"
+        },
+        {
+          "name": "Підтвердження / матеріал медіа",
+          "url": "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-third-quarter-of-2026/"
+        }
+      ]
     },
     {
       "id": "intergalactic-the-heretic-prophet",
       "title": "Intergalactic: The Heretic Prophet",
-      "description": "Нова науково-фантастична пригода від Naughty Dog. Мисливиця за головами Джордан А. Мун опиняється на віддаленій планеті Семпірія. Проєкт офіційно анонсований для PS5, але PlayStation поки не назвала дату чи рік виходу.",
+      "description": "Нова науково-фантастична пригода від Naughty Dog. Мисливиця за головами Джордан А. Мун опиняється на віддаленій планеті Семпірія. Гру офіційно анонсовано для PS5, але студія ще не оголосила рік виходу.",
       "releaseYear": "TBA",
       "releaseDate": "Рік виходу не оголошено",
       "sortDate": "9999-12-31",
       "comingSoon": true,
       "status": "announced",
-      "editorialRank": 8000000,
-      "priority": 8000000,
+      "editorialRank": 9500000,
+      "priority": 9500000,
       "priorityLabel": "АНОНСОВАНО · БЕЗ ДАТИ",
-      "developers": ["Naughty Dog"],
-      "publishers": ["Sony Interactive Entertainment"],
-      "platforms": {"playstation5": true},
-      "genres": ["Наукова фантастика", "Пригода"],
-      "header": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
-      "poster": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
-      "hero": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
-      "screenshots": [
-        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"},
-        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"},
-        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-01-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-01-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"}
+      "developers": [
+        "Naughty Dog"
       ],
-      "trailers": [{"name": "Announcement Trailer · PlayStation", "youtube": "VLGy63pt9vA"}],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "platforms": {
+        "playstation5": true
+      },
+      "genres": [
+        "Наукова фантастика",
+        "Пригода"
+      ],
+      "header": "https://i.ytimg.com/vi/VLGy63pt9vA/maxresdefault.jpg",
+      "poster": "https://i.ytimg.com/vi/VLGy63pt9vA/maxresdefault.jpg",
+      "hero": "https://i.ytimg.com/vi/VLGy63pt9vA/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$1600px$=",
+          "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$640px$=",
+          "caption": "Офіційний скриншот PlayStation"
+        },
+        {
+          "path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$1600px$=",
+          "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$640px$=",
+          "caption": "Офіційний скриншот PlayStation"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Announcement Trailer · PlayStation",
+          "youtube": "VLGy63pt9vA"
+        }
+      ],
       "website": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
-      "sourceUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
+      "sourceUrl": "https://blog.playstation.com/2024/12/12/introducing-intergalactic-the-heretic-prophet-naughty-dogs-newest-franchise/ ",
       "storeUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
-      "storeLabel": "Офіційна сторінка PlayStation"
-    },
-    {
-      "id": "god-of-war-laufey",
-      "title": "God of War Laufey",
-      "description": "Нова глава легендарної серії від Santa Monica Studio. Після смерті Фей опиняється в потойбічному Everywhen і має захистити Кратоса та Атрея. PlayStation підтвердила вихід на PS5 20 травня 2027 року.",
-      "releaseYear": "2027",
-      "releaseDate": "20 трав. 2027",
-      "sortDate": "2027-05-20",
-      "comingSoon": true,
-      "status": "announced",
-      "editorialRank": 9000000,
-      "priority": 9000000,
-      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ РОКУ",
-      "developers": ["Santa Monica Studio"],
-      "publishers": ["Sony Interactive Entertainment"],
-      "platforms": {"playstation5": true},
-      "genres": ["Екшн", "Пригода"],
-      "header": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
-      "poster": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
-      "hero": "https://i.ytimg.com/vi/HLMX2w3cwuE/maxresdefault.jpg",
-      "screenshots": [
-        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-leviathan-en-30may26?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-leviathan-en-30may26?$640px$=", "caption": "Офіційний скриншот PlayStation"},
-        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-environment-en-30may26?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-laufey-wm-screenshot-environment-en-30may26?$640px$=", "caption": "Офіційний скриншот PlayStation"}
-      ],
-      "trailers": [{"name": "Gameplay Reveal Trailer · PlayStation", "youtube": "HLMX2w3cwuE"}],
-      "website": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
-      "sourceUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
-      "storeUrl": "https://www.playstation.com/en-us/games/god-of-war-laufey/",
-      "storeLabel": "Офіційна сторінка PlayStation"
+      "storeLabel": "Офіційна сторінка PlayStation",
+      "sources": [
+        {
+          "name": "Naughty Dog: анонс гри",
+          "url": "https://www.naughtydog.com/blog/introducing_intergalactic_the_heretic_prophet"
+        },
+        {
+          "name": "PlayStation: офіційний анонс",
+          "url": "https://blog.playstation.com/2024/12/12/introducing-intergalactic-the-heretic-prophet-naughty-dogs-newest-franchise/"
+        }
+      ]
     }
   ]
 }
