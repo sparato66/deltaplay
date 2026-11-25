@@ -27,5 +27,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
+      - name: Дочекатися індексації артефакту Pages
+        run: sleep 8
       - id: deployment
         uses: actions/deploy-pages@v4
