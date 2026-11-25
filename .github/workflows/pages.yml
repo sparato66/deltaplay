@@ -31,10 +31,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
+      - name: Дочекатися індексації артефакту Pages
+        run: sleep 8
       - id: deployment
         uses: actions/deploy-pages@v4
       - name: Зберегти оновлену стрічку в репозиторії
-        if: github.actor != 'github-actions[bot]'
+        if: always() && github.actor != 'github-actions[bot]'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
