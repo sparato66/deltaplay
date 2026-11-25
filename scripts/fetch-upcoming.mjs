@@ -62,6 +62,18 @@ function resultRows(markup = '') {
   return rows;
 }
 
+async function steamMovies(id) {
+  const response = await fetch(`https://store.steampowered.com/video/${id}/?l=english&cc=us`, { headers, signal: AbortSignal.timeout(30000) });
+  if (!response.ok) throw new Error(`Steam video page returned ${response.status} for ${id}`);
+  const markup = await response.text();
+  const tags = [...markup.matchAll(/<div\b(?=[^>]*\bclass=["'][^"']*\bhighlight_movie\b)([^>]*)>/gi)].map((match) => match[1]);
+  const attribute = (tag, name) => tag.match(new RegExp(`\\b${name}=["']([^"']+)`, 'i'))?.[1]?.replace(/&amp;/g, '&').replace(/&#39;/g, "'") || '';
+  return tags.map((tag) => ({
+    name: attribute(tag, 'data-title') || attribute(tag, 'data-name') || 'Офіційний трейлер Steam',
+    mp4: attribute(tag, 'data-mp4-source'), webm: attribute(tag, 'data-webm-source')
+  })).filter((movie) => movie.mp4 || movie.webm);
+}
+
 const candidates = new Map();
 async function collectSearch(parameters, label, maxItems, scoreBase, stopCounts, dateSorted = false) {
   const yearIds = Object.fromEntries(YEARS.map((year) => [year, new Set()]));
@@ -130,6 +142,11 @@ async function details(candidate) {
   const shortDescription = cleanText(app.short_description || '');
   const fullDescription = cleanText(app.about_the_game || '');
   const description = (shortDescription.length >= 120 ? shortDescription : fullDescription || shortDescription).slice(0, 520);
+  let trailers = (app.movies || []).map((movie) => ({ name: movie.name, mp4: movie.mp4?.max || movie.mp4?.['480'] || '', webm: movie.webm?.max || movie.webm?.['480'] || '' })).filter((movie) => movie.mp4 || movie.webm);
+  if (!trailers.length) {
+    try { trailers = await steamMovies(id); }
+    catch (error) { console.warn(`Steam video metadata unavailable for ${id}: ${error.message}`); }
+  }
   return {
     id: String(id), appid: Number(id), title: app.name || candidate.title || 'Без назви', description,
     releaseYear: year, releaseDate: release.label, sortDate: release.sort, comingSoon: true,
@@ -137,7 +154,7 @@ async function details(candidate) {
     platforms: app.platforms || {}, genres: (app.genres || []).map((item) => item.description),
     header: app.header_image || '', poster: app.library_capsule || app.header_image || '',
     hero: app.background_raw || app.background || '', screenshots: app.screenshots || [],
-    trailers: (app.movies || []).map((movie) => ({ name: movie.name, mp4: movie.mp4?.max || movie.mp4?.['480'] || '', webm: movie.webm?.max || movie.webm?.['480'] || '' })).filter((movie) => movie.mp4 || movie.webm),
+    trailers,
     website: app.website || '', storeUrl: `https://store.steampowered.com/app/${id}/`, sourceUrl: `https://store.steampowered.com/app/${id}/`
   };
 }
