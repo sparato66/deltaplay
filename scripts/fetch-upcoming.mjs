@@ -8,9 +8,14 @@ const headers = { 'User-Agent': 'DeltaGameFeed/3.0 (+https://github.com/sparato6
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getJSON(url) {
-  const response = await fetch(url, { headers, signal: AbortSignal.timeout(30000) });
-  if (!response.ok) throw new Error(`Steam returned ${response.status} for ${url}`);
-  return response.json();
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const response = await fetch(url, { headers, signal: AbortSignal.timeout(30000) });
+    if (response.ok) return response.json();
+    if (![429, 500, 502, 503, 504].includes(response.status) || attempt === 4) throw new Error(`Steam returned ${response.status} for ${url}`);
+    const wait = Number(response.headers.get('retry-after')) * 1000 || 1500 * (attempt + 1);
+    console.warn(`Steam requested slower traffic (${response.status}); retrying in ${wait}ms.`);
+    await sleep(wait);
+  }
 }
 
 function cleanText(html = '') {
@@ -47,14 +52,15 @@ function resultRows(markup = '') {
     const html = match[2];
     const title = cleanText(html.match(/<span\b[^>]*class=["'][^"']*\btitle\b[^"']*["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] || '');
     const rawDate = cleanText(html.match(/<div\b[^>]*class=["'][^"']*\bsearch_released\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] || '');
-    rows.push({ id, title, rawDate, ...releaseDate(rawDate) });
+    const image = html.match(/<img\b[^>]*\bsrc=["']([^"']+)["']/i)?.[1] || '';
+    rows.push({ id, title, rawDate, image, ...releaseDate(rawDate) });
   }
   return rows;
 }
 
 const candidates = new Map();
-async function collectSearch(parameters, label, maxItems, scoreBase) {
-  const counts = Object.fromEntries(YEARS.map((year) => [year, 0]));
+async function collectSearch(parameters, label, maxItems, scoreBase, stopCounts, dateSorted = false) {
+  const yearIds = Object.fromEntries(YEARS.map((year) => [year, new Set()]));
   let total = Infinity;
   for (let start = 0; start < maxItems && start < 15000; start += PAGE_SIZE) {
     const query = new URLSearchParams({ ...parameters, count: PAGE_SIZE, start, infinite: 1, json: 1, cc: 'ua', l: 'ukrainian' });
@@ -64,26 +70,29 @@ async function collectSearch(parameters, label, maxItems, scoreBase) {
     rows.forEach((row, index) => {
       if (!YEARS.includes(row.sort.slice(0, 4))) return;
       const year = row.sort.slice(0, 4);
-      counts[year]++;
+      yearIds[year].add(row.id);
       const priority = scoreBase - start - index;
       const previous = candidates.get(row.id);
-      if (!previous || priority > previous.priority) candidates.set(row.id, { ...row, year, priority });
+      const isSteamGameSearch = parameters.category1 === 998;
+      if (!previous || priority > previous.priority) candidates.set(row.id, { ...row, year, priority, officialGameList: isSteamGameSearch || previous?.officialGameList });
     });
     total = Number(page.total_count) || total;
+    const counts = Object.fromEntries(YEARS.map((year) => [year, yearIds[year].size]));
     console.log(`Steam ${label}: ${JSON.stringify(counts)} date-listed projects, page ${start / PAGE_SIZE + 1}.`);
     const enough = YEARS.every((year) => counts[year] >= 140);
     const pageYears = rows.map((row) => Number(row.sort.slice(0, 4))).filter(Number.isFinite);
-    const passedWindow = pageYears.length && Math.min(...pageYears) < Number(YEARS[0]);
-    if (enough || passedWindow || !page.results_html || start + PAGE_SIZE >= total) break;
-    await sleep(250);
+    const passedWindow = dateSorted && pageYears.length && Math.max(...pageYears) < Number(YEARS[0]);
+    const reachedSourcesTarget = Object.entries(stopCounts).every(([year, count]) => counts[year] >= count);
+    if (enough || reachedSourcesTarget || passedWindow || !page.results_html || start + PAGE_SIZE >= total) break;
+    await sleep(900);
   }
 }
 
 // Start with higher-priced scheduled releases (which surface pre-orders and
 // large named series), then fill from Steam's date-sorted upcoming calendar.
-await collectSearch({ filter: 'comingsoon', category1: 998, os: 'win', sort_by: 'Price_DESC' }, 'pre-orders and releases', 4000, 100000);
-await collectSearch({ filter: 'popularcomingsoon' }, 'popular upcoming', 3000, 50000);
-await collectSearch({ filter: 'comingsoon', category1: 998, os: 'win', sort_by: 'Released_DESC' }, 'year calendar', 12000, 10000);
+await collectSearch({ filter: 'comingsoon', category1: 998, os: 'win', sort_by: 'Price_DESC' }, 'pre-orders and releases', 1000, 100000, { 2026: 70, 2027: 70, 2028: 70, 2029: 70, 2030: 70 });
+await collectSearch({ filter: 'popularcomingsoon' }, 'popular upcoming', 500, 50000, { 2026: 180, 2027: 30 });
+await collectSearch({ filter: 'comingsoon', category1: 998, os: 'win', sort_by: 'Released_DESC' }, 'year calendar', 8000, 10000, { 2026: 150, 2027: 150, 2028: 150, 2029: 150, 2030: 150 }, true);
 
 const candidatesByYear = Object.fromEntries(YEARS.map((year) => [year, [...candidates.values()].filter((game) => game.year === year).sort((a, b) => b.priority - a.priority)]));
 console.log(`Candidate pool by year: ${JSON.stringify(Object.fromEntries(YEARS.map((year) => [year, candidatesByYear[year].length])))}.`);
@@ -98,6 +107,7 @@ async function details(candidate) {
   if (!payload[id]?.success || !app || app.type !== 'game' || !app.release_date?.coming_soon) return null;
   let release = releaseDate(app.release_date.date);
   if (release.sort < releaseDay) return null;
+  if (release.sort === '9999-12-31' && YEARS.includes(candidate.year)) release = { label: candidate.rawDate || `${candidate.year} · орієнтовний рік Steam`, sort: candidate.sort };
   const explicitYear = release.sort.slice(0, 4);
   if (!YEARS.includes(explicitYear) && release.sort !== '9999-12-31') return null;
   if (release.sort === '9999-12-31') release = { label: `${candidate.targetYear} · рік у каталозі Steam`, sort: `${candidate.targetYear}-12-31` };
@@ -109,7 +119,7 @@ async function details(candidate) {
   return {
     id: String(id), appid: Number(id), title: app.name || candidate.title || 'Без назви', description,
     releaseYear: year, releaseDate: release.label, sortDate: release.sort, comingSoon: true,
-    priority: candidate.priority, addedAt: new Date().toISOString(), developers: app.developers || [], publishers: app.publishers || [],
+    priority: candidate.priority, priorityLabel: candidate.priority >= 50000 ? 'ВИСОКИЙ ПРОФІЛЬ' : 'МАЙБУТНІЙ РЕЛІЗ', addedAt: new Date().toISOString(), developers: app.developers || [], publishers: app.publishers || [],
     platforms: app.platforms || {}, genres: (app.genres || []).map((item) => item.description),
     header: app.header_image || '', poster: app.library_capsule || app.header_image || '',
     hero: app.background_raw || app.background || '', screenshots: app.screenshots || [],
@@ -118,12 +128,29 @@ async function details(candidate) {
   };
 }
 
+function minimalFromSteamSearch(candidate) {
+  if (!candidate.officialGameList || !YEARS.includes(candidate.year) || candidate.sort < releaseDay) return null;
+  return {
+    id: String(candidate.id), appid: Number(candidate.id), title: candidate.title || `Майбутня гра Steam ${candidate.id}`,
+    description: `Сторінка гри в Steam позначає реліз на ${candidate.rawDate || candidate.year}. Студія ще не опублікувала більше подробиць.`,
+    releaseYear: candidate.year, releaseDate: candidate.rawDate || `${candidate.year} · рік у Steam`, sortDate: candidate.sort,
+    comingSoon: true, priority: candidate.priority, priorityLabel: candidate.priority >= 50000 ? 'ВИСОКИЙ ПРОФІЛЬ' : 'МАЙБУТНІЙ РЕЛІЗ',
+    addedAt: new Date().toISOString(), developers: [], publishers: [], platforms: { windows: true }, genres: [],
+    header: candidate.image || '', poster: candidate.image || '', hero: '', screenshots: [], trailers: [], website: '',
+    storeUrl: `https://store.steampowered.com/app/${candidate.id}/`, sourceUrl: `https://store.steampowered.com/app/${candidate.id}/`,
+    limitedInfo: true
+  };
+}
+
 for (let offset = 0; offset < queue.length; offset += 10) {
   const batch = queue.slice(offset, offset + 10).filter((candidate) => verifiedByYear[candidate.targetYear].size < PER_YEAR);
   if (!batch.length) continue;
   const results = await Promise.all(batch.map(async (candidate) => {
     try { return await details(candidate); }
-    catch (error) { console.warn(`Skipping Steam app ${candidate.id}: ${error.message}`); return null; }
+    catch (error) {
+      console.warn(`Using Steam search listing for ${candidate.id}: ${error.message}`);
+      return minimalFromSteamSearch(candidate);
+    }
   }));
   for (const game of results) {
     if (game && verifiedByYear[game.releaseYear].size < PER_YEAR) verifiedByYear[game.releaseYear].set(game.id, game);
