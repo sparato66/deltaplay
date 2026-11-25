@@ -62,36 +62,67 @@ async function details(id) {
 }
 
 const candidates = new Set();
-let total = Infinity;
-for (let start = 0; candidates.size < 1000 && start < 5000; start += PAGE_SIZE) {
-  const query = new URLSearchParams({ filter: 'popularcomingsoon', count: PAGE_SIZE, start, infinite: 1, json: 1, cc: 'ua', l: 'ukrainian' });
-  const page = await getJSON(`${BASE}?${query}`);
-  for (const id of appIds(page.results_html)) candidates.add(id);
-  total = Number(page.total_count) || total;
-  console.log(`Steam upcoming search: ${candidates.size}/${Math.min(total, 1000)} candidates scanned.`);
-  if (!page.results_html || !appIds(page.results_html).length || start + PAGE_SIZE >= total) break;
-  await sleep(300);
+async function collectSearch(parameters, label, limit = 1000) {
+  let total = Infinity;
+  const initial = candidates.size;
+  for (let start = 0; start < limit && start < 5000; start += PAGE_SIZE) {
+    const query = new URLSearchParams({ ...parameters, count: PAGE_SIZE, start, infinite: 1, json: 1, cc: 'ua', l: 'ukrainian' });
+    const page = await getJSON(`${BASE}?${query}`);
+    const ids = appIds(page.results_html);
+    ids.forEach((id) => candidates.add(id));
+    total = Number(page.total_count) || total;
+    console.log(`Steam ${label}: ${candidates.size - initial}/${Math.min(total, limit)} candidates scanned.`);
+    if (!page.results_html || !ids.length || start + PAGE_SIZE >= total) break;
+    await sleep(300);
+  }
 }
+
+// Steam's high price sort surfaces scheduled pre-orders and named projects
+// beyond the next few weeks. Popular Upcoming supplies additional near-term titles.
+await collectSearch({ filter: 'comingsoon', category1: 998, os: 'win', sort_by: 'Price_DESC' }, 'announced future releases', 1500);
+await collectSearch({ filter: 'popularcomingsoon' }, 'Popular Upcoming', 1000);
 if (!candidates.size) throw new Error('Steam returned no upcoming game candidates; preserving the previous published catalogue.');
 
 const all = [...candidates];
-const found = new Map();
-for (let offset = 0; offset < all.length && found.size < REQUIRED; offset += 5) {
+const verified = new Map();
+const currentYear = new Date().getUTCFullYear();
+for (let offset = 0; offset < all.length; offset += 5) {
   const batch = all.slice(offset, offset + 5);
   const results = await Promise.all(batch.map(async (id) => {
     try { return await details(id); }
     catch (error) { console.warn(`Skipping Steam app ${id}: ${error.message}`); return null; }
   }));
   for (const game of results) {
-    if (game && !found.has(game.id)) found.set(game.id, game);
-    if (found.size === REQUIRED) break;
+    if (game && !verified.has(game.id)) verified.set(game.id, game);
   }
-  if (offset + 5 < all.length && found.size < REQUIRED) await sleep(300);
+  const yearCounts = [...verified.values()].reduce((summary, game) => {
+    const year = Number(game.sortDate.slice(0, 4));
+    if (year > currentYear && year <= currentYear + 4) summary.later++;
+    else if (year === currentYear) summary.current++;
+    return summary;
+  }, { later: 0, current: 0 });
+  if (yearCounts.later >= 55 && yearCounts.current >= 45) {
+    console.log(`Release window target reached: ${yearCounts.later} later-year and ${yearCounts.current} current-year projects verified.`);
+    break;
+  }
+  if (offset + 5 < all.length) await sleep(300);
 }
 
-const games = [...found.values()].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+const verifiedGames = [...verified.values()];
+const byDate = (a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title);
+const laterYears = verifiedGames.filter((game) => {
+  const year = Number(game.sortDate.slice(0, 4));
+  return year > currentYear && year <= currentYear + 4;
+}).sort(byDate);
+const currentYearGames = verifiedGames.filter((game) => game.sortDate.startsWith(String(currentYear))).sort(byDate);
+const undated = verifiedGames.filter((game) => game.sortDate === '9999-12-31').sort((a, b) => a.title.localeCompare(b.title, 'uk'));
+const games = [...laterYears.slice(0, Math.min(55, laterYears.length)), ...currentYearGames, ...undated, ...verifiedGames.filter((game) => !laterYears.includes(game) && !currentYearGames.includes(game) && !undated.includes(game))]
+  .slice(0, REQUIRED)
+  .sort(byDate);
 if (games.length !== REQUIRED) throw new Error(`Expected exactly ${REQUIRED} verified upcoming games, received ${games.length}. Preserving the last published catalogue.`);
-const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · popular upcoming', count: games.length, games };
+const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · announced upcoming games', count: games.length, games };
 await writeFile('games.json', `${JSON.stringify(data, null, 2)}\n`);
+const yearSummary = games.reduce((summary, game) => { const year = game.sortDate.slice(0, 4); summary[year] = (summary[year] || 0) + 1; return summary; }, {});
 console.log(`Prepared exactly ${games.length} verified upcoming games from ${candidates.size} Steam search candidates.`);
+console.log(`Release years: ${JSON.stringify(yearSummary)}.`);
 console.log(`Media coverage: ${games.filter((game) => game.trailers.length).length} trailers, ${games.filter((game) => game.screenshots.length).length} screenshot galleries.`);
