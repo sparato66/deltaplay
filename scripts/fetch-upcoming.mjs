@@ -37,7 +37,11 @@ async function details(id) {
   const app = payload[id]?.data;
   if (!payload[id]?.success || !app || app.type !== 'game' || !app.release_date?.coming_soon) return null;
   const release = releaseDate(app.release_date);
-  const description = cleanText(app.short_description || app.about_the_game || '').slice(0, 520);
+  const shortDescription = cleanText(app.short_description || '');
+  const fullDescription = cleanText(app.about_the_game || '');
+  const description = (shortDescription.length >= 120 ? shortDescription : fullDescription || shortDescription).slice(0, 520);
+  const releaseDay = new Date().toISOString().slice(0, 10);
+  if (release.sort < releaseDay) return null;
   return {
     id: String(id), appid: Number(id), title: app.name || 'Без назви', description,
     releaseDate: release.label, sortDate: release.sort, comingSoon: true,

@@ -4,7 +4,6 @@
   const search = $('#search');
   const sort = $('#sort');
   let games = [];
-  let visible = 24;
 
   const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
   const platforms = (game) => Object.entries(game.platforms || {}).filter(([, available]) => available).map(([name]) => ({ windows: 'PC', mac: 'Mac', linux: 'Linux' })[name] || name).join(' · ') || 'Платформи уточнюються';
@@ -32,16 +31,14 @@
     else if (sort.value === 'new') list.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''));
     else list.sort((a, b) => (a.sortDate || '9999').localeCompare(b.sortDate || '9999') || a.title.localeCompare(b.title, 'uk'));
     $('#game-count').textContent = String(list.length).padStart(2, '0');
-    $('#visible-count').textContent = `Показано ${Math.min(visible, list.length)} з ${list.length}`;
+    $('#visible-count').textContent = `У стрічці ${list.length} ${list.length === 1 ? 'гра' : 'ігор'}`;
     $('#empty').hidden = list.length !== 0;
     $('#error').hidden = games.length !== 0;
-    $('#load-more').hidden = list.length <= visible;
-    feed.innerHTML = list.slice(0, visible).map(card).join('');
+    feed.innerHTML = list.map(card).join('');
   }
 
-  search.addEventListener('input', () => { visible = 24; render(); });
+  search.addEventListener('input', render);
   sort.addEventListener('change', render);
-  $('#load-more').addEventListener('click', () => { visible += 24; render(); });
   fetch('games.json', { cache: 'no-store' }).then((response) => {
     if (!response.ok) throw new Error('Не вдалося отримати каталог');
     return response.json();
