@@ -11,6 +11,9 @@
   const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
   const platformText = (game) => Object.entries(game.platforms || {}).filter(([, available]) => available).map(([name]) => ({ windows: 'PC', mac: 'Mac', linux: 'Linux' })[name] || name).join(' · ') || 'Платформи уточнюються';
   const gameYear = (game) => String(game.releaseYear || game.sortDate?.slice(0, 4) || '');
+  const topStudios = /CD PROJEKT|ROCKSTAR|NAUGHTY DOG|VALVE|BETHESDA|CAPCOM|SQUARE ENIX|UBISOFT|ELECTRONIC ARTS|NINTENDO|PLAYSTATION STUDIOS|XBOX GAME STUDIOS|FROM SOFTWARE|BANDAI NAMCO|PEARL ABYSS|BLIZZARD|REMEDY|LARIAN|KOEI TECMO|WARNER BROS|2K GAMES/i;
+  const marqueeGames = /witcher|grand theft auto|\bgta\b|fable|final fantasy|elder scrolls|resident evil|forza horizon|god of war|ghost of|monster hunter|assassin'?s creed|star wars|marvel|call of duty|tomb raider|halo|gears of war|dragon quest|kingdom hearts|metro [0-9]|crimson desert|cyberpunk|mass effect|doom: the dark ages/i;
+  const importance = (game) => Number(game.editorialRank || 0) + (marqueeGames.test(game.title || '') ? 2000000 : 0) + (topStudios.test([...(game.developers || []), ...(game.publishers || [])].join(' ')) ? 1000000 : 0) + Number(game.priority || 0);
 
   const card = (game, index) => {
     const image = game.poster || game.header || '';
@@ -52,7 +55,7 @@
     const list = yearGames.filter((game) => `${game.title} ${game.description || ''} ${(game.developers || []).join(' ')} ${(game.publishers || []).join(' ')} ${(game.genres || []).join(' ')} ${platformText(game)}`.toLocaleLowerCase('uk').includes(query));
     if (sort.value === 'name') list.sort((a, b) => a.title.localeCompare(b.title, 'uk'));
     else if (sort.value === 'date') list.sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title, 'uk'));
-    else list.sort((a, b) => (b.priority || 0) - (a.priority || 0) || a.title.localeCompare(b.title, 'uk'));
+    else list.sort((a, b) => importance(b) - importance(a) || a.title.localeCompare(b.title, 'uk'));
     $('#year-title').textContent = activeYear;
     $('#year-count').textContent = `${yearGames.length} / 50`;
     $('#year-summary').textContent = yearGames.length === 50 ? '50 ігор — від великих серій до нових відкриттів' : `${yearGames.length} перевірених сторінок; решта ще не підтверджена`;
@@ -64,17 +67,11 @@
     renderTabs();
   }
 
-  function renderHero() {
-    const featured = games.filter((game) => gameYear(game) === '2026').sort((a, b) => (b.priority || 0) - (a.priority || 0))[0] || games[0];
-    if (!featured) return;
-    const art = $('#hero-art');
-    const image = featured.hero || featured.header || featured.poster || '';
-    art.src = image;
-    if (image) art.parentElement.style.setProperty('--featured-art', `url("${image.replace(/["\\]/g, '')}")`);
-    art.alt = `Обкладинка гри ${featured.title}`;
-    $('#hero-release').textContent = `${featured.title} · ${featured.releaseDate || 'ДАТУ УТОЧНЮЮТЬ'}`;
-    $('#hero-game-link').href = `game.html?id=${encodeURIComponent(featured.id)}`;
-    $('#hero-game-link').textContent = `Досьє гри ↗`;
+  function renderSpotlight() {
+    const feed = $('#spotlight-feed');
+    const projects = games.filter((game) => !YEARS.includes(gameYear(game)) && game.status === 'announced').sort((a, b) => importance(b) - importance(a));
+    feed.innerHTML = projects.map((game) => `<article class="spotlight-card"><img src="${escapeHTML(game.poster || game.header || '')}" alt="Офіційне зображення ${escapeHTML(game.title)}" loading="lazy"><div><span class="spotlight-status">АНОНСОВАНО · РІК НЕ ОГОЛОШЕНО</span><h3>${escapeHTML(game.title)}</h3><p>${escapeHTML(game.description || '')}</p><span class="spotlight-studio">${escapeHTML((game.developers || []).join(', '))} · ${escapeHTML(platformText(game))}</span><a href="game.html?id=${encodeURIComponent(game.id)}">Відкрити досьє ↗</a></div></article>`).join('');
+    $('#without-date').hidden = projects.length === 0;
   }
 
   search.addEventListener('input', () => { shown = 12; render(); });
@@ -84,9 +81,9 @@
     if (!response.ok) throw new Error('Не вдалося отримати каталог');
     return response.json();
   }).then((data) => {
-    games = (data.games || []).filter((game) => game.comingSoon === true && YEARS.includes(gameYear(game)));
+    games = (data.games || []).filter((game) => game.comingSoon === true);
     $('#update-note').textContent = data.updatedAt ? `ЗВІРЕНО ${new Intl.DateTimeFormat('uk-UA', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(data.updatedAt))}` : 'ДАНІ ОНОВЛЮЮТЬСЯ АВТОМАТИЧНО';
-    renderHero();
+    renderSpotlight();
     render();
   }).catch(() => {
     $('#update-note').textContent = 'НЕ ВДАЛОСЯ ОНОВИТИ ДАНІ';

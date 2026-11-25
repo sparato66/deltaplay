@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 
 const BASE = 'https://store.steampowered.com/search/results/';
 const YEARS = ['2026', '2027', '2028', '2029', '2030'];
@@ -193,7 +193,18 @@ for (let offset = 0; offset < queue.length; offset += 4) {
 
 const missing = YEARS.filter((year) => verifiedByYear[year].size < PER_YEAR).map((year) => `${year}: ${verifiedByYear[year].size}/50`);
 if (missing.length) console.warn(`Steam has fewer verified listings for distant years (${missing.join(', ')}). Publishing the listings it could verify; no projects were assigned invented release years.`);
-const games = YEARS.flatMap((year) => [...verifiedByYear[year].values()].sort((a, b) => b.priority - a.priority || a.title.localeCompare(b.title, 'uk')));
+const editorial = JSON.parse(await readFile('editorial-games.json', 'utf8')).games || [];
+const datedEditorial = editorial.filter((game) => YEARS.includes(String(game.releaseYear)));
+const undatedEditorial = editorial.filter((game) => !YEARS.includes(String(game.releaseYear)) && game.status === 'announced');
+for (const game of datedEditorial) {
+  const year = String(game.releaseYear);
+  const entries = [...verifiedByYear[year].values()].filter((entry) => entry.id !== game.id && entry.title.toLocaleLowerCase('uk') !== game.title.toLocaleLowerCase('uk'));
+  entries.sort((a, b) => b.priority - a.priority || a.title.localeCompare(b.title, 'uk'));
+  if (entries.length >= PER_YEAR) entries.length = PER_YEAR - 1;
+  entries.unshift(game);
+  verifiedByYear[year] = new Map(entries.map((entry) => [entry.id, entry]));
+}
+const games = [...YEARS.flatMap((year) => [...verifiedByYear[year].values()].sort((a, b) => (b.editorialRank || 0) - (a.editorialRank || 0) || b.priority - a.priority || a.title.localeCompare(b.title, 'uk'))), ...undatedEditorial];
 const yearCounts = Object.fromEntries(YEARS.map((year) => [year, verifiedByYear[year].size]));
 const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · annual upcoming releases', count: games.length, yearCounts, games };
 await writeFile('games.json', `${JSON.stringify(data, null, 2)}\n`);

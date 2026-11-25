@@ -1,0 +1,65 @@
+{
+  "source": "Офіційні сайти видавців і платформ",
+  "games": [
+    {
+      "id": "the-witcher-4",
+      "title": "The Witcher IV",
+      "description": "Початок нової саги у відкритому світі. Цірі вирушає власним шляхом, щоб стати професійною мисливицею на чудовиськ. CD PROJEKT RED підтвердила цільове вікно виходу — 2028 рік.",
+      "releaseYear": "2028",
+      "releaseDate": "2028 · цільове вікно студії",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9000000,
+      "priority": 9000000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ РОКУ",
+      "developers": ["CD PROJEKT RED"],
+      "publishers": ["CD PROJEKT"],
+      "platforms": {},
+      "genres": ["Рольова гра", "Відкритий світ"],
+      "header": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
+      "poster": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
+      "hero": "https://public.cdn.cdpr.app/thewitcher/website/build/3027846432-537a5ede/_next/static/media/1920.3igs7guwxpfup.jpg",
+      "screenshots": [
+        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/00_The_Witcher_4_UE5_tech_demo_PS5_Ciri___Kovir_Vista_CLEAN_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/00_The_Witcher_4_UE5_tech_demo_PS5_Ciri___Kovir_Vista_CLEAN_q90_680x680.jpeg", "caption": "Кадр техдемо Unreal Engine 5 — не фінальний геймплей"},
+        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/f27b7dc412991abab953dfab1b208746_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/f27b7dc412991abab953dfab1b208746_q90_680x680.jpeg", "caption": "Офіційний матеріал CD PROJEKT RED"},
+        {"path_full": "https://press.cdn.cdpr.app/media/thumbnails/3e86913bded1cded1f46aaf33e16abeb_q90_680x680.jpeg", "path_thumbnail": "https://press.cdn.cdpr.app/media/thumbnails/3e86913bded1cded1f46aaf33e16abeb_q90_680x680.jpeg", "caption": "Офіційний матеріал CD PROJEKT RED"}
+      ],
+      "trailers": [{"name": "Cinematic Reveal Trailer · PlayStation", "youtube": "eH7ZFebKMYk"}],
+      "website": "https://www.thewitcher.com/_next/witcher4",
+      "sourceUrl": "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-third-quarter-of-2026/",
+      "storeUrl": "https://www.thewitcher.com/_next/witcher4",
+      "storeLabel": "Офіційна сторінка The Witcher IV"
+    },
+    {
+      "id": "intergalactic-the-heretic-prophet",
+      "title": "Intergalactic: The Heretic Prophet",
+      "description": "Нова науково-фантастична пригода від Naughty Dog. Мисливиця за головами Джордан А. Мун опиняється на віддаленій планеті Семпірія. Проєкт офіційно анонсований для PS5, але PlayStation поки не назвала дату чи рік виходу.",
+      "releaseYear": "TBA",
+      "releaseDate": "Рік виходу не оголошено",
+      "sortDate": "9999-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 8000000,
+      "priority": 8000000,
+      "priorityLabel": "АНОНСОВАНО · БЕЗ ДАТИ",
+      "developers": ["Naughty Dog"],
+      "publishers": ["Sony Interactive Entertainment"],
+      "platforms": {"playstation5": true},
+      "genres": ["Наукова фантастика", "Пригода"],
+      "header": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
+      "poster": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
+      "hero": "https://i.ytimg.com/vi_webp/VLGy63pt9vA/maxresdefault.webp",
+      "screenshots": [
+        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-02-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"},
+        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-04-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"},
+        {"path_full": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-01-en-13dec24?$1600px$=", "path_thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/Intergalactic-screenshot-01-en-13dec24?$640px$=", "caption": "Офіційний скриншот PlayStation"}
+      ],
+      "trailers": [{"name": "Announcement Trailer · PlayStation", "youtube": "VLGy63pt9vA"}],
+      "website": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
+      "sourceUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
+      "storeUrl": "https://www.playstation.com/en-us/games/intergalactic-the-heretic-prophet/",
+      "storeLabel": "Офіційна сторінка PlayStation"
+    }
+  ]
+}
