@@ -55,7 +55,7 @@
     else list.sort((a, b) => (b.priority || 0) - (a.priority || 0) || a.title.localeCompare(b.title, 'uk'));
     $('#year-title').textContent = activeYear;
     $('#year-count').textContent = `${yearGames.length} / 50`;
-    $('#year-summary').textContent = yearGames.length === 50 ? '50 ігор — від великих серій до нових відкриттів' : `${yearGames.length} із 50 ігор завантажено`;
+    $('#year-summary').textContent = yearGames.length === 50 ? '50 ігор — від великих серій до нових відкриттів' : `${yearGames.length} перевірених сторінок; решта ще не підтверджена`;
     $('#visible-count').textContent = `Показано ${Math.min(shown, list.length)} з ${list.length}`;
     $('#empty').hidden = list.length !== 0;
     $('#error').hidden = games.length !== 0;

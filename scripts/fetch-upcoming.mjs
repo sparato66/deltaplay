@@ -175,9 +175,10 @@ for (let offset = 0; offset < queue.length; offset += 4) {
 }
 
 const missing = YEARS.filter((year) => verifiedByYear[year].size < PER_YEAR).map((year) => `${year}: ${verifiedByYear[year].size}/50`);
-if (missing.length) throw new Error(`Steam could not verify the requested year catalogs (${missing.join(', ')}). Keeping the last published catalog; no projects were assigned invented release years.`);
+if (missing.length) console.warn(`Steam has fewer verified listings for distant years (${missing.join(', ')}). Publishing the listings it could verify; no projects were assigned invented release years.`);
 const games = YEARS.flatMap((year) => [...verifiedByYear[year].values()].sort((a, b) => b.priority - a.priority || a.title.localeCompare(b.title, 'uk')));
-const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · annual upcoming releases', count: games.length, yearCounts: Object.fromEntries(YEARS.map((year) => [year, 50])), games };
+const yearCounts = Object.fromEntries(YEARS.map((year) => [year, verifiedByYear[year].size]));
+const data = { updatedAt: new Date().toISOString(), source: 'Steam Store · annual upcoming releases', count: games.length, yearCounts, games };
 await writeFile('games.json', `${JSON.stringify(data, null, 2)}\n`);
-console.log(`Prepared exactly ${games.length} upcoming games: 50 each for 2026–2030.`);
+console.log(`Prepared ${games.length} upcoming games: ${JSON.stringify(yearCounts)}.`);
 console.log(`Media coverage: ${games.filter((game) => game.trailers.length).length} trailers, ${games.filter((game) => game.screenshots.length).length} screenshot galleries.`);
