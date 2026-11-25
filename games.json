@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T12:02:55.759Z",
+  "updatedAt": "2026-11-25T12:12:58.411Z",
   "source": "Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа",
   "sources": [
     {
@@ -577,6 +577,821 @@
         {
           "name": "PlayStation: офіційний анонс",
           "url": "https://blog.playstation.com/2024/12/12/introducing-intergalactic-the-heretic-prophet-naughty-dogs-newest-franchise/"
+        }
+      ]
+    },
+    {
+      "id": "stranger-than-heaven",
+      "title": "STRANGER THAN HEAVEN",
+      "description": "Похмура кримінальна сага від Ryu Ga Gotoku Studio, розгорнута у п’яти японських містах і часових періодах між 1915 та 1965 роками. Sega підтвердила запуск 15 січня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "15 січня 2027",
+      "sortDate": "2027-01-15",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9800000,
+      "priority": 9800000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "Ryu Ga Gotoku Studio"
+      ],
+      "publishers": [
+        "SEGA"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Екшн-пригода",
+        "Кримінальна драма"
+      ],
+      "header": "https://img.youtube.com/vi/ovuwbzcb8Qk/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/ovuwbzcb8Qk/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/ovuwbzcb8Qk/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/ovuwbzcb8Qk/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/ovuwbzcb8Qk/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "ovuwbzcb8Qk"
+        }
+      ],
+      "website": "https://stranger-than-heaven.com/",
+      "sourceUrl": "https://ryu-ga-gotoku.com/asia_en/info/detail/004308.html",
+      "storeUrl": "https://stranger-than-heaven.com/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://stranger-than-heaven.com/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://ryu-ga-gotoku.com/asia_en/info/detail/004308.html"
+        }
+      ]
+    },
+    {
+      "id": "metroid-ravenous",
+      "title": "Metroid Ravenous",
+      "description": "Нова велика пригода Самус Аран і продовження основної 2D-гілки Metroid. Nintendo підтвердила вихід на Switch 2 28 січня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "28 січня 2027",
+      "sortDate": "2027-01-28",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9700000,
+      "priority": 9700000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "Nintendo EPD",
+        "MercurySteam"
+      ],
+      "publishers": [
+        "Nintendo"
+      ],
+      "platforms": {
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Пригода",
+        "Метроїдванія"
+      ],
+      "header": "https://img.youtube.com/vi/ku-vSTDNsT8/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/ku-vSTDNsT8/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/ku-vSTDNsT8/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/ku-vSTDNsT8/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/ku-vSTDNsT8/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "ku-vSTDNsT8"
+        }
+      ],
+      "website": "https://www.nintendo.com/us/store/products/metroid-ravenous-switch-2/",
+      "sourceUrl": "https://www.nintendo.com/en-gb/News/Nintendo-Direct/2026/Nintendo-Direct-09-09-2026-3232931.html",
+      "storeUrl": "https://www.nintendo.com/us/store/products/metroid-ravenous-switch-2/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.nintendo.com/us/store/products/metroid-ravenous-switch-2/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.nintendo.com/en-gb/News/Nintendo-Direct/2026/Nintendo-Direct-09-09-2026-3232931.html"
+        }
+      ]
+    },
+    {
+      "id": "until-dawn-2",
+      "title": "Until Dawn 2",
+      "description": "Продовження інтерактивного горору від Firesprite та AdHoc Studio. Дія знову зосереджена на смертельно небезпечних виборах; підтверджена дата виходу на PS5 — 28 січня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "28 січня 2027",
+      "sortDate": "2027-01-28",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9600000,
+      "priority": 9600000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "Firesprite",
+        "AdHoc Studio"
+      ],
+      "publishers": [
+        "Sony Interactive Entertainment"
+      ],
+      "platforms": {
+        "playstation5": true
+      },
+      "genres": [
+        "Інтерактивний горор",
+        "Пригода"
+      ],
+      "header": "https://img.youtube.com/vi/-wjhso38sAY/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/-wjhso38sAY/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/-wjhso38sAY/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/-wjhso38sAY/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/-wjhso38sAY/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "-wjhso38sAY"
+        }
+      ],
+      "website": "https://firesprite.com/games/untildawn2",
+      "sourceUrl": "https://blog.playstation.com/2026/09/03/until-dawn-2-launches-january-28/",
+      "storeUrl": "https://firesprite.com/games/untildawn2",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://firesprite.com/games/untildawn2"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://blog.playstation.com/2026/09/03/until-dawn-2-launches-january-28/"
+        }
+      ]
+    },
+    {
+      "id": "persona-4-revival",
+      "title": "Persona 4 Revival",
+      "description": "Повномасштабний ремейк культової рольової гри Atlus про розслідування загадкових убивств у містечку Інаба. Основні версії виходять 18 лютого, Nintendo Switch 2 — 20 травня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "18 лютого 2027 · Switch 2 — 20 травня",
+      "sortDate": "2027-02-18",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9500000,
+      "priority": 9500000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "ATLUS"
+      ],
+      "publishers": [
+        "SEGA"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Рольова гра",
+        "Ремейк"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://asia.sega.com/p4r/en/revival/",
+      "sourceUrl": "https://asia.sega.com/p4r/en/story/",
+      "storeUrl": "https://asia.sega.com/p4r/en/revival/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://asia.sega.com/p4r/en/revival/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://asia.sega.com/p4r/en/story/"
+        }
+      ]
+    },
+    {
+      "id": "wo-long-2-wings-of-ember",
+      "title": "Wo Long 2: Wings of Ember",
+      "description": "Продовження темного фентезійного екшену Team NINJA у переосмисленому світі Трьох царств. Розробники підтвердили запуск 4 березня 2027 року та кооперативне проходження.",
+      "releaseYear": "2027",
+      "releaseDate": "4 березня 2027",
+      "sortDate": "2027-03-04",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9400000,
+      "priority": 9400000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "Team NINJA"
+      ],
+      "publishers": [
+        "Koei Tecmo"
+      ],
+      "platforms": {
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true,
+        "windows": true
+      },
+      "genres": [
+        "Екшн-RPG",
+        "Фентезі"
+      ],
+      "header": "https://img.youtube.com/vi/6e6lN24jpA0/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/6e6lN24jpA0/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/6e6lN24jpA0/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/6e6lN24jpA0/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/6e6lN24jpA0/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "6e6lN24jpA0"
+        }
+      ],
+      "website": "https://www.koeitecmoeurope.com/news/return-to-the-demon-infested-world-of-the-three-kingdoms-in-wo-long-2-wings-of-ember-on-4th-march-2027/",
+      "sourceUrl": "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today/",
+      "storeUrl": "https://www.koeitecmoeurope.com/news/return-to-the-demon-infested-world-of-the-three-kingdoms-in-wo-long-2-wings-of-ember-on-4th-march-2027/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.koeitecmoeurope.com/news/return-to-the-demon-infested-world-of-the-three-kingdoms-in-wo-long-2-wings-of-ember-on-4th-march-2027/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today/"
+        }
+      ]
+    },
+    {
+      "id": "exodus",
+      "title": "EXODUS",
+      "description": "Науково-фантастична рольова пригода від Archetype Entertainment, студії ветеранів BioWare. Гравець очолює подорож крізь зоряну систему, де релятивістське уповільнення часу впливає на долі тих, кого він залишив позаду. Вихід — 7 квітня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "7 квітня 2027",
+      "sortDate": "2027-04-07",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9300000,
+      "priority": 9300000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "Archetype Entertainment"
+      ],
+      "publishers": [
+        "Wizards of the Coast"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Наукова фантастика",
+        "Рольова гра"
+      ],
+      "header": "https://img.youtube.com/vi/7xNEKkSTDB8/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/7xNEKkSTDB8/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/7xNEKkSTDB8/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/7xNEKkSTDB8/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/7xNEKkSTDB8/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "7xNEKkSTDB8"
+        }
+      ],
+      "website": "https://www.exodusgame.com/en-US/news/exodus-launches-april-7-2027-official-release-date-trailer",
+      "sourceUrl": "https://www.exodusgame.com/en-US/news/exodus-launches-april-7-2027-official-release-date-trailer",
+      "storeUrl": "https://www.exodusgame.com/en-US/news/exodus-launches-april-7-2027-official-release-date-trailer",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.exodusgame.com/en-US/news/exodus-launches-april-7-2027-official-release-date-trailer"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.exodusgame.com/en-US/news/exodus-launches-april-7-2027-official-release-date-trailer"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-veronica",
+      "title": "Resident Evil Veronica",
+      "description": "Ремейк Resident Evil Code: Veronica від Capcom. Розробники обіцяють переосмислену історію, сучасний ігровий процес і графіку на RE Engine; офіційне вікно виходу — 2027 рік, точну дату ще не оголосили.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · точна дата не оголошена",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 10000000,
+      "priority": 10000000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "CAPCOM"
+      ],
+      "publishers": [
+        "CAPCOM"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Горор на виживання",
+        "Ремейк"
+      ],
+      "header": "https://img.youtube.com/vi/uxUMXniTfjM/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/uxUMXniTfjM/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/uxUMXniTfjM/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/uxUMXniTfjM/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/uxUMXniTfjM/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "uxUMXniTfjM"
+        }
+      ],
+      "website": "https://www.capcom.co.jp/ir/english/news/html/e260608.html",
+      "sourceUrl": "https://www.capcom.co.jp/ir/english/news/html/e260608.html",
+      "storeUrl": "https://www.capcom.co.jp/ir/english/news/html/e260608.html",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.capcom.co.jp/ir/english/news/html/e260608.html"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.capcom.co.jp/ir/english/news/html/e260608.html"
+        }
+      ]
+    },
+    {
+      "id": "kena-scars-of-kosmora",
+      "title": "Kena: Scars of Kosmora",
+      "description": "Продовження Kena: Bridge of Spirits від Ember Lab. Кена вирушає на острів Космора, де зустрічає нові народи та досліджує зв’язок між духами й алхімією. Реліз підтверджено на 2027 рік.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · дата уточнюється",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 7800000,
+      "priority": 7800000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "Ember Lab"
+      ],
+      "publishers": [
+        "Ember Lab"
+      ],
+      "platforms": {
+        "playstation5": true,
+        "windows": true
+      },
+      "genres": [
+        "Пригода",
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/",
+      "sourceUrl": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/",
+      "storeUrl": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/"
+        }
+      ]
+    },
+    {
+      "id": "witcher-3-songs-of-the-past",
+      "title": "The Witcher 3: Wild Hunt — Songs of the Past",
+      "description": "Нове повноцінне доповнення до The Witcher 3: Wild Hunt. Ґеральт повертається на Шлях і вирушає до тихого краю Леттен, під поверхнею якого приховані темні таємниці. CD PROJEKT RED планує випустити доповнення у 2027 році.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · дата уточнюється",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9900000,
+      "priority": 9900000,
+      "priorityLabel": "ВЕЛИКИЙ РЕЛІЗ",
+      "developers": [
+        "CD PROJEKT RED",
+        "Fool’s Theory"
+      ],
+      "publishers": [
+        "CD PROJEKT RED"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true,
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Рольова гра",
+        "Доповнення"
+      ],
+      "header": "https://img.youtube.com/vi/SB3siHVCHpY/maxresdefault.jpg",
+      "poster": "https://img.youtube.com/vi/SB3siHVCHpY/maxresdefault.jpg",
+      "hero": "https://img.youtube.com/vi/SB3siHVCHpY/maxresdefault.jpg",
+      "screenshots": [
+        {
+          "path_full": "https://img.youtube.com/vi/SB3siHVCHpY/maxresdefault.jpg",
+          "path_thumbnail": "https://img.youtube.com/vi/SB3siHVCHpY/hqdefault.jpg",
+          "caption": "Кадр з офіційного трейлера"
+        }
+      ],
+      "trailers": [
+        {
+          "name": "Офіційний трейлер",
+          "youtube": "SB3siHVCHpY"
+        }
+      ],
+      "website": "https://www.thewitcher.com/us/en/witcher3",
+      "sourceUrl": "https://www.cdprojekt.com/en/wp-content/uploads-en/2026/11/cd-projekt-red-group-presentation-q3-2026.pdf",
+      "storeUrl": "https://www.thewitcher.com/us/en/witcher3",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.thewitcher.com/us/en/witcher3"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.cdprojekt.com/en/wp-content/uploads-en/2026/11/cd-projekt-red-group-presentation-q3-2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "state-of-decay-3",
+      "title": "State of Decay 3",
+      "description": "Нова частина серії про виживання після зомбі-апокаліпсису від Undead Labs. Студія показала перший ігровий процес і назвала 2027 рік цільовим вікном випуску.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · орієнтир студії",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9000000,
+      "priority": 9000000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "Undead Labs"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
+      "platforms": {
+        "windows": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Виживання",
+        "Відкритий світ"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://news.xbox.com/en-us/2026/06/07/state-of-decay-3-first-gameplay-reveal-xbox-games-showcase-2026/",
+      "sourceUrl": "https://news.xbox.com/en-us/2026/06/07/state-of-decay-3-first-gameplay-reveal-xbox-games-showcase-2026/",
+      "storeUrl": "https://news.xbox.com/en-us/2026/06/07/state-of-decay-3-first-gameplay-reveal-xbox-games-showcase-2026/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://news.xbox.com/en-us/2026/06/07/state-of-decay-3-first-gameplay-reveal-xbox-games-showcase-2026/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://news.xbox.com/en-us/2026/06/07/state-of-decay-3-first-gameplay-reveal-xbox-games-showcase-2026/"
+        }
+      ]
+    },
+    {
+      "id": "the-duskbloods",
+      "title": "The Duskbloods",
+      "description": "Мережева екшн-гра FromSoftware, створена ексклюзивно для Nintendo Switch 2. Студія перенесла її на 2027 рік, але точну дату та докладні правила гри ще не повідомила.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · дата уточнюється",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 8800000,
+      "priority": 8800000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "FromSoftware"
+      ],
+      "publishers": [
+        "FromSoftware"
+      ],
+      "platforms": {
+        "nintendoSwitch2": true
+      },
+      "genres": [
+        "Мережева гра",
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.fromsoftware.jp/ww/pressrelease/20261029_theduskbloods_postponement.html",
+      "sourceUrl": "https://www.fromsoftware.jp/ww/pressrelease/20261029_theduskbloods_postponement.html",
+      "storeUrl": "https://www.fromsoftware.jp/ww/pressrelease/20261029_theduskbloods_postponement.html",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.fromsoftware.jp/ww/pressrelease/20261029_theduskbloods_postponement.html"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.fromsoftware.jp/ww/pressrelease/20261029_theduskbloods_postponement.html"
+        }
+      ]
+    },
+    {
+      "id": "titan-quest-2",
+      "title": "Titan Quest II",
+      "description": "Продовження рольової серії в античному фентезійному світі. Гравці протистоять Немезиді та досліджують міфологічну Грецію; повний реліз заплановано на 19 січня 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "19 січня 2027",
+      "sortDate": "2027-01-19",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 8200000,
+      "priority": 8200000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "Grimlore Games"
+      ],
+      "publishers": [
+        "THQ Nordic"
+      ],
+      "platforms": {
+        "windows": true,
+        "playstation5": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Рольова гра",
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.thqnordic.com/games/titan-quest-ii",
+      "sourceUrl": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf",
+      "storeUrl": "https://www.thqnordic.com/games/titan-quest-ii",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.thqnordic.com/games/titan-quest-ii"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "id": "crazy-taxi-world-tour",
+      "title": "Crazy Taxi: World Tour",
+      "description": "Повернення аркадної серії SEGA про шалені поїздки міськими вулицями. Проєкт присутній у корпоративному плані запусків SEGA на 2027 рік; дату та деталі платформ ще не оголосили.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · дата уточнюється",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 7300000,
+      "priority": 7300000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "SEGA"
+      ],
+      "publishers": [
+        "SEGA"
+      ],
+      "platforms": {},
+      "genres": [
+        "Перегони",
+        "Аркада"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.sega.com/",
+      "sourceUrl": "https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20261106_q2_presentation_e.pdf",
+      "storeUrl": "https://www.sega.com/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.sega.com/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20261106_q2_presentation_e.pdf"
+        }
+      ]
+    },
+    {
+      "id": "virtua-fighter-crossroads",
+      "title": "Virtua Fighter Crossroads",
+      "description": "Нова частина визначальної серії 3D-файтингів від SEGA та Ryu Ga Gotoku Studio. Проєкт зазначений у плані ключових релізів SEGA на 2027 рік; дата, склад платформ і подробиці гри ще не підтверджені.",
+      "releaseYear": "2027",
+      "releaseDate": "2027 · дата уточнюється",
+      "sortDate": "2027-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 7600000,
+      "priority": 7600000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "Ryu Ga Gotoku Studio"
+      ],
+      "publishers": [
+        "SEGA"
+      ],
+      "platforms": {},
+      "genres": [
+        "Файтинг"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.sega.com/",
+      "sourceUrl": "https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20261106_q2_presentation_e.pdf",
+      "storeUrl": "https://www.sega.com/",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.sega.com/"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://www.segasammy.co.jp/cms/wp-content/uploads/pdf/en/ir/20261106_q2_presentation_e.pdf"
+        }
+      ]
+    },
+    {
+      "id": "turok-origins",
+      "title": "Turok: Origins",
+      "description": "Науково-фантастичний шутер у всесвіті Turok від Saber Interactive. Герої протистоять динозаврам і прибульцям; PlayStation підтвердила вихід навесні 2027 року.",
+      "releaseYear": "2027",
+      "releaseDate": "Весна 2027",
+      "sortDate": "2027-05-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 8000000,
+      "priority": 8000000,
+      "priorityLabel": "ВАЖЛИВИЙ ПРОЄКТ",
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [
+        "Saber Interactive"
+      ],
+      "platforms": {
+        "playstation5": true,
+        "windows": true,
+        "xboxSeries": true
+      },
+      "genres": [
+        "Шутер",
+        "Наукова фантастика"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.saber.games/games/turok-origins",
+      "sourceUrl": "https://blog.playstation.com/2026/08/25/gamescom-opening-night-live-highlights-19-games-coming-to-playstation/",
+      "storeUrl": "https://www.saber.games/games/turok-origins",
+      "storeLabel": "Офіційна сторінка проєкту",
+      "sources": [
+        {
+          "name": "Офіційна сторінка / анонс",
+          "url": "https://www.saber.games/games/turok-origins"
+        },
+        {
+          "name": "Підтвердження року або дати",
+          "url": "https://blog.playstation.com/2026/08/25/gamescom-opening-night-live-highlights-19-games-coming-to-playstation/"
+        }
+      ]
+    },
+    {
+      "id": "tomb-raider-catalyst",
+      "title": "Tomb Raider: Catalyst",
+      "description": "Нова основна пригода Лари Крофт від Crystal Dynamics. Embracer Group вказала проєкт у календарному 2028 році у своїй корпоративній презентації; дата запуску та повний перелік платформ ще не оголошені.",
+      "releaseYear": "2028",
+      "releaseDate": "2028 · корпоративний план",
+      "sortDate": "2028-12-31",
+      "comingSoon": true,
+      "status": "announced",
+      "editorialRank": 9700000,
+      "priority": 9700000,
+      "priorityLabel": "ГОЛОВНИЙ РЕЛІЗ",
+      "developers": [
+        "Crystal Dynamics"
+      ],
+      "publishers": [
+        "Amazon Game Studios"
+      ],
+      "platforms": {},
+      "genres": [
+        "Пригода",
+        "Екшн"
+      ],
+      "header": "",
+      "poster": "",
+      "hero": "",
+      "screenshots": [],
+      "trailers": [],
+      "website": "https://www.tombraider.com/",
+      "sourceUrl": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf",
+      "storeUrl": "https://www.tombraider.com/",
+      "storeLabel": "Офіційний сайт Tomb Raider",
+      "sources": [
+        {
+          "name": "Офіційний сайт серії",
+          "url": "https://www.tombraider.com/"
+        },
+        {
+          "name": "Embracer Group · план випусків",
+          "url": "https://embracer.com/wp-content/uploads/2026/11/Q2-FY-2627-Presentation.pdf"
         }
       ]
     }
