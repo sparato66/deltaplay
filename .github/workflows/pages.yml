@@ -26,6 +26,12 @@ jobs:
       - name: Зібрати стрічку майбутніх ігор зі Steam
         if: github.actor != 'github-actions[bot]'
         run: node scripts/fetch-upcoming.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
       - name: Зберегти оновлену стрічку в репозиторії
         if: github.actor != 'github-actions[bot]'
         run: |
@@ -38,9 +44,3 @@ jobs:
             git commit -m "Оновити стрічку майбутніх ігор"
             git push origin HEAD:main
           fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deployment
-        uses: actions/deploy-pages@v4
