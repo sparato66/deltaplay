@@ -1,102 +1,17 @@
 {
-  "updatedAt": "2026-11-25T03:43:00.797Z",
+  "updatedAt": "2026-11-25T04:53:08.967Z",
   "source": "Steam Store · popular upcoming",
   "count": 100,
   "games": [
     {
-      "id": "4534960",
-      "appid": 4534960,
-      "title": "Dear Passengers",
-      "description": "Play in co-op as the crew of the world’s worst airline. Your plane is falling apart, your cargo is illegal, and passenger safety barely makes the list.",
-      "releaseDate": "1 січня 2026 р.",
-      "sortDate": "2026-01-01",
-      "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.585Z",
-      "developers": [
-        "FLEXUS"
-      ],
-      "publishers": [
-        "FLEXUS"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "genres": [
-        "Бойовики",
-        "Пригоди",
-        "Інді"
-      ],
-      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/7ddef53346afe3e3d4d479dbed740cdb38cfe09a/header.jpg?t=1787132605",
-      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/7ddef53346afe3e3d4d479dbed740cdb38cfe09a/header.jpg?t=1787132605",
-      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4534960?t=1787132605",
-      "screenshots": [
-        {
-          "id": 0,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/b28210ec5549d2cda898099e6d4a5c29153b2f35/ss_b28210ec5549d2cda898099e6d4a5c29153b2f35.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/b28210ec5549d2cda898099e6d4a5c29153b2f35/ss_b28210ec5549d2cda898099e6d4a5c29153b2f35.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 1,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/8587fe02b49b18e907bc271403aca145aac23b2d/ss_8587fe02b49b18e907bc271403aca145aac23b2d.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/8587fe02b49b18e907bc271403aca145aac23b2d/ss_8587fe02b49b18e907bc271403aca145aac23b2d.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 2,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/de1051493ef5690ab1a17d7c2fc35a74a42a4ea1/ss_de1051493ef5690ab1a17d7c2fc35a74a42a4ea1.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/de1051493ef5690ab1a17d7c2fc35a74a42a4ea1/ss_de1051493ef5690ab1a17d7c2fc35a74a42a4ea1.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 3,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/12ea170121330ac9040a00257436552a9b2368a1/ss_12ea170121330ac9040a00257436552a9b2368a1.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/12ea170121330ac9040a00257436552a9b2368a1/ss_12ea170121330ac9040a00257436552a9b2368a1.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 4,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/7d572221193bf6d9a3294f7a59af4d093afb6ba1/ss_7d572221193bf6d9a3294f7a59af4d093afb6ba1.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/7d572221193bf6d9a3294f7a59af4d093afb6ba1/ss_7d572221193bf6d9a3294f7a59af4d093afb6ba1.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 5,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/59919ca43b7423a86e31e69e5f7ddc7b1fe7dcc3/ss_59919ca43b7423a86e31e69e5f7ddc7b1fe7dcc3.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/59919ca43b7423a86e31e69e5f7ddc7b1fe7dcc3/ss_59919ca43b7423a86e31e69e5f7ddc7b1fe7dcc3.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 6,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/442dcbff83ae722b28b063e2b453a96d75f1d465/ss_442dcbff83ae722b28b063e2b453a96d75f1d465.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/442dcbff83ae722b28b063e2b453a96d75f1d465/ss_442dcbff83ae722b28b063e2b453a96d75f1d465.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 7,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/9fdf57c8e8d2946d9c82ebece8ce7c311f587d41/ss_9fdf57c8e8d2946d9c82ebece8ce7c311f587d41.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/9fdf57c8e8d2946d9c82ebece8ce7c311f587d41/ss_9fdf57c8e8d2946d9c82ebece8ce7c311f587d41.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 8,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/a30af7fc82215257ef5f0934d3be1fb5d7f4d5fb/ss_a30af7fc82215257ef5f0934d3be1fb5d7f4d5fb.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/a30af7fc82215257ef5f0934d3be1fb5d7f4d5fb/ss_a30af7fc82215257ef5f0934d3be1fb5d7f4d5fb.1920x1080.jpg?t=1787132605"
-        },
-        {
-          "id": 9,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/0f97770ed578a9ce1a20309e58a3bd1cc3cce099/ss_0f97770ed578a9ce1a20309e58a3bd1cc3cce099.600x338.jpg?t=1787132605",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4534960/0f97770ed578a9ce1a20309e58a3bd1cc3cce099/ss_0f97770ed578a9ce1a20309e58a3bd1cc3cce099.1920x1080.jpg?t=1787132605"
-        }
-      ],
-      "trailers": [],
-      "website": "https://dearpassengers.game",
-      "storeUrl": "https://store.steampowered.com/app/4534960/",
-      "sourceUrl": "https://store.steampowered.com/app/4534960/"
-    },
-    {
       "id": "4738100",
       "appid": 4738100,
       "title": "10 Million Pixels",
-      "description": "Mine millions of pixels in search of the one Golden Pixel by shooting bouncing balls.",
+      "description": "An incremental game about mining pixels in search of the one Golden Pixel. Shoot balls to mine pixels. Use the mined pixels as a currency to shoot more balls. Explore the procedurally generated environment to find special upgrade-pixels that can be used for unlocking new balls and upgrading their unique ball-abilities. Dig out hidden objects and find the Golden Pixel, hidden somewhere among the 10 million pixels. Features Uncover A Huge World : Explore a huge world of 10 million mineable pixels. (For reference, the",
       "releaseDate": "10 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.980Z",
+      "addedAt": "2026-11-25T04:53:01.567Z",
       "developers": [
         "BATTLE LAB"
       ],
@@ -188,7 +103,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.687Z",
+      "addedAt": "2026-11-25T04:53:08.421Z",
       "developers": [
         "ebi-hime"
       ],
@@ -247,7 +162,7 @@
       "releaseDate": "4 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.763Z",
+      "addedAt": "2026-11-25T04:53:04.343Z",
       "developers": [
         "Mi'pu'mi Games GmbH"
       ],
@@ -322,11 +237,11 @@
       "id": "4773720",
       "appid": 4773720,
       "title": "A Real Life Party",
-      "description": "hey ill be there soon. u should go in tho my roommates are super chill.",
+      "description": "Hey it's Ben! Henry gave me your number &lt;3 SO excited you're joining us for the flatwarming!!! yeahh exciting. anything in particular we're gonna get up to? Easier if I write a list, I have a whole plan LOL: A first-person grid-based system where the visual consist of photos 30 mins of gameplay Hundreds of lines of recorded dialogue New Zealanders Weird vibes?! Heheh uh actually damn im not sure if i can make it Wait did I say WEIRD?? LOLLL I meant CHILL*! ok ill let u know! Haha, no no no no nonono. Please come",
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.149Z",
+      "addedAt": "2026-11-25T04:53:05.980Z",
       "developers": [
         "Anton Pätsi"
       ],
@@ -400,7 +315,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.035Z",
+      "addedAt": "2026-11-25T04:53:00.193Z",
       "developers": [
         "A Paradise Lost Studios"
       ],
@@ -484,7 +399,7 @@
       "releaseDate": "4 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.027Z",
+      "addedAt": "2026-11-25T04:53:00.173Z",
       "developers": [
         "DEEP INTERACTIVE"
       ],
@@ -570,7 +485,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.395Z",
+      "addedAt": "2026-11-25T04:53:07.626Z",
       "developers": [
         "ZV GAMES"
       ],
@@ -634,7 +549,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.317Z",
+      "addedAt": "2026-11-25T04:52:58.047Z",
       "developers": [
         "HO! Games"
       ],
@@ -696,7 +611,7 @@
       "releaseDate": "2 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.688Z",
+      "addedAt": "2026-11-25T04:53:05.422Z",
       "developers": [
         "Happy Broccoli Games"
       ],
@@ -776,7 +691,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.681Z",
+      "addedAt": "2026-11-25T04:53:05.506Z",
       "developers": [
         "Le Rado"
       ],
@@ -835,7 +750,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.332Z",
+      "addedAt": "2026-11-25T04:52:58.083Z",
       "developers": [
         "Pebbles Games",
         "PlayTogether Studio"
@@ -1038,11 +953,11 @@
       "id": "3333850",
       "appid": 3333850,
       "title": "Arkheron",
-      "description": "No two runs are ever the same. New loot, new enemies, new strategies, new memories. Arkheron is a fast-paced, isometric PvP where every item you grab rewrites how you play mid-fight. Take two friends up the Tower, pull off strats that shouldn’t work, and fight your way to the next floor.",
+      "description": "Arkheron is a fast-paced, team-based PvP game where items grant powerful abilities to master. Combine them to outplay rival teams with skill and creativity as you fight your way up the Tower. Every run challenges you to adapt, survive, and master new combinations.",
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.033Z",
+      "addedAt": "2026-11-25T04:53:00.145Z",
       "developers": [
         "Bonfire Studios"
       ],
@@ -1058,44 +973,59 @@
         "Бойовики",
         "Дочасний доступ"
       ],
-      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795569239",
-      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795569239",
-      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3333850?t=1795569239",
+      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
+      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/30aa0db1b4ee4eb19c72add82f8453f17053d309/header.jpg?t=1795580929",
+      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3333850?t=1795580929",
       "screenshots": [
         {
           "id": 0,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/b5c519258d07985a5b4436036479606b5c6cf8cb/ss_b5c519258d07985a5b4436036479606b5c6cf8cb.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/b5c519258d07985a5b4436036479606b5c6cf8cb/ss_b5c519258d07985a5b4436036479606b5c6cf8cb.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/42a64d60af20b506400349ddec966b61cf410b56/ss_42a64d60af20b506400349ddec966b61cf410b56.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/42a64d60af20b506400349ddec966b61cf410b56/ss_42a64d60af20b506400349ddec966b61cf410b56.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 1,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/eb313c2b18d058e954932b41a03ba6ebcd89e6cd/ss_eb313c2b18d058e954932b41a03ba6ebcd89e6cd.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/eb313c2b18d058e954932b41a03ba6ebcd89e6cd/ss_eb313c2b18d058e954932b41a03ba6ebcd89e6cd.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/429efecf880539f588dad4fc0363709da61eef8c/ss_429efecf880539f588dad4fc0363709da61eef8c.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/429efecf880539f588dad4fc0363709da61eef8c/ss_429efecf880539f588dad4fc0363709da61eef8c.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 2,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/8467bc96afb1f23e80723829f69df72e53403800/ss_8467bc96afb1f23e80723829f69df72e53403800.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/8467bc96afb1f23e80723829f69df72e53403800/ss_8467bc96afb1f23e80723829f69df72e53403800.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/c3669a7770e576344d96ca1828a851a66ff44590/ss_c3669a7770e576344d96ca1828a851a66ff44590.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/c3669a7770e576344d96ca1828a851a66ff44590/ss_c3669a7770e576344d96ca1828a851a66ff44590.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 3,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/a1c9a9e6e36c26f881b76d3ec3f1b26db0a03c0b/ss_a1c9a9e6e36c26f881b76d3ec3f1b26db0a03c0b.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/a1c9a9e6e36c26f881b76d3ec3f1b26db0a03c0b/ss_a1c9a9e6e36c26f881b76d3ec3f1b26db0a03c0b.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fd144c09c0b460d6f8c7c2f115817dd596242eb3/ss_fd144c09c0b460d6f8c7c2f115817dd596242eb3.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fd144c09c0b460d6f8c7c2f115817dd596242eb3/ss_fd144c09c0b460d6f8c7c2f115817dd596242eb3.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 4,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/c1ad9c81dbce2b96e13d1490f96cdfa5c35d80eb/ss_c1ad9c81dbce2b96e13d1490f96cdfa5c35d80eb.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/c1ad9c81dbce2b96e13d1490f96cdfa5c35d80eb/ss_c1ad9c81dbce2b96e13d1490f96cdfa5c35d80eb.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63/ss_fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63/ss_fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 5,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/48b10b00d758b80ff5942f8ac6a709f54477c993/ss_48b10b00d758b80ff5942f8ac6a709f54477c993.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/48b10b00d758b80ff5942f8ac6a709f54477c993/ss_48b10b00d758b80ff5942f8ac6a709f54477c993.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/ee02ed4c0ba558e08a61edde8dd33e91f8f3d601/ss_ee02ed4c0ba558e08a61edde8dd33e91f8f3d601.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/ee02ed4c0ba558e08a61edde8dd33e91f8f3d601/ss_ee02ed4c0ba558e08a61edde8dd33e91f8f3d601.1920x1080.jpg?t=1795580929"
         },
         {
           "id": 6,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63/ss_fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63.600x338.jpg?t=1795569239",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63/ss_fa2b6a2d0123e7a14d86690a23b4ca6b1de78d63.1920x1080.jpg?t=1795569239"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/59e0ee74fd0acaf4d1be22800886d0896ed51aca/ss_59e0ee74fd0acaf4d1be22800886d0896ed51aca.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/59e0ee74fd0acaf4d1be22800886d0896ed51aca/ss_59e0ee74fd0acaf4d1be22800886d0896ed51aca.1920x1080.jpg?t=1795580929"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/5e9eaf97932c3b0ce74d2359d1210b033ec76bc1/ss_5e9eaf97932c3b0ce74d2359d1210b033ec76bc1.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/5e9eaf97932c3b0ce74d2359d1210b033ec76bc1/ss_5e9eaf97932c3b0ce74d2359d1210b033ec76bc1.1920x1080.jpg?t=1795580929"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/1ff3e7472ae918b4b1553d97c634767f31063375/ss_1ff3e7472ae918b4b1553d97c634767f31063375.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/1ff3e7472ae918b4b1553d97c634767f31063375/ss_1ff3e7472ae918b4b1553d97c634767f31063375.1920x1080.jpg?t=1795580929"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/b46f2fb563b3842626d6ab3f73aca5eb05ccbd40/ss_b46f2fb563b3842626d6ab3f73aca5eb05ccbd40.600x338.jpg?t=1795580929",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333850/b46f2fb563b3842626d6ab3f73aca5eb05ccbd40/ss_b46f2fb563b3842626d6ab3f73aca5eb05ccbd40.1920x1080.jpg?t=1795580929"
         }
       ],
       "trailers": [],
@@ -1111,7 +1041,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.856Z",
+      "addedAt": "2026-11-25T04:53:08.022Z",
       "developers": [
         "Zero Sun Games"
       ],
@@ -1190,7 +1120,7 @@
       "releaseDate": "9 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.412Z",
+      "addedAt": "2026-11-25T04:53:02.861Z",
       "developers": [
         "KOEI TECMO GAMES CO., LTD."
       ],
@@ -1273,7 +1203,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.319Z",
+      "addedAt": "2026-11-25T04:53:03.473Z",
       "developers": [
         "Tovarishch Games"
       ],
@@ -1358,7 +1288,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.268Z",
+      "addedAt": "2026-11-25T04:53:05.028Z",
       "developers": [
         "DryGin Studios"
       ],
@@ -1458,7 +1388,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.825Z",
+      "addedAt": "2026-11-25T04:53:07.614Z",
       "developers": [
         "Kikiri Company"
       ],
@@ -1548,7 +1478,7 @@
       "releaseDate": "2 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.424Z",
+      "addedAt": "2026-11-25T04:53:00.682Z",
       "developers": [
         "Pokuch"
       ],
@@ -1642,7 +1572,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.966Z",
+      "addedAt": "2026-11-25T04:53:02.302Z",
       "developers": [
         "Malapata Studio"
       ],
@@ -1734,6 +1664,80 @@
       "sourceUrl": "https://store.steampowered.com/app/4414620/"
     },
     {
+      "id": "4572620",
+      "appid": 4572620,
+      "title": "Canvas Attack!",
+      "description": "Step into the bohemian world of early 20th-century France in Canvas Attack! This roguelike deckbuilder transforms the act of painting into a tactical puzzle battle. Fill empty canvas cells before despair overwhelms you, and juggle your finances and sanity to survive.",
+      "releaseDate": "25 листоп. 2026",
+      "sortDate": "2026-12-31",
+      "comingSoon": true,
+      "addedAt": "2026-11-25T04:53:08.431Z",
+      "developers": [
+        "Sinopia House"
+      ],
+      "publishers": [
+        "Sinopia House"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "genres": [
+        "Інді",
+        "Стратегії"
+      ],
+      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/cb8c0324161186ec6ea77e51adfee81e02736ae7/header.jpg?t=1794427897",
+      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/cb8c0324161186ec6ea77e51adfee81e02736ae7/header.jpg?t=1794427897",
+      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4572620?t=1794427897",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/18a78082509966ad37cf0960aca189db17595e2d/ss_18a78082509966ad37cf0960aca189db17595e2d.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/18a78082509966ad37cf0960aca189db17595e2d/ss_18a78082509966ad37cf0960aca189db17595e2d.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/401c009dc3adf148793b417bafab30792a459470/ss_401c009dc3adf148793b417bafab30792a459470.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/401c009dc3adf148793b417bafab30792a459470/ss_401c009dc3adf148793b417bafab30792a459470.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/5b133087e6b59892aa79f73154cff053a75f0d7d/ss_5b133087e6b59892aa79f73154cff053a75f0d7d.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/5b133087e6b59892aa79f73154cff053a75f0d7d/ss_5b133087e6b59892aa79f73154cff053a75f0d7d.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/51321230d91e7d3b46f90bb6f10a577d67a6436a/ss_51321230d91e7d3b46f90bb6f10a577d67a6436a.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/51321230d91e7d3b46f90bb6f10a577d67a6436a/ss_51321230d91e7d3b46f90bb6f10a577d67a6436a.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/a48b8f7b25176b5868adf177c1be17ad96dc0cec/ss_a48b8f7b25176b5868adf177c1be17ad96dc0cec.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/a48b8f7b25176b5868adf177c1be17ad96dc0cec/ss_a48b8f7b25176b5868adf177c1be17ad96dc0cec.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/2065ae1566af06b1a588104bb0dc1e16d05ebdbf/ss_2065ae1566af06b1a588104bb0dc1e16d05ebdbf.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/2065ae1566af06b1a588104bb0dc1e16d05ebdbf/ss_2065ae1566af06b1a588104bb0dc1e16d05ebdbf.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/a80f18ccd97c0d64d52a6ea89b8212c10ea61307/ss_a80f18ccd97c0d64d52a6ea89b8212c10ea61307.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/a80f18ccd97c0d64d52a6ea89b8212c10ea61307/ss_a80f18ccd97c0d64d52a6ea89b8212c10ea61307.1920x1080.jpg?t=1794427897"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/733a8875aae9e56da5f40503f53d32761af40695/ss_733a8875aae9e56da5f40503f53d32761af40695.600x338.jpg?t=1794427897",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4572620/733a8875aae9e56da5f40503f53d32761af40695/ss_733a8875aae9e56da5f40503f53d32761af40695.1920x1080.jpg?t=1794427897"
+        }
+      ],
+      "trailers": [],
+      "website": "https://x.com/SinopiaHouse",
+      "storeUrl": "https://store.steampowered.com/app/4572620/",
+      "sourceUrl": "https://store.steampowered.com/app/4572620/"
+    },
+    {
       "id": "5360050",
       "appid": 5360050,
       "title": "Carnival: Tidy Up!",
@@ -1741,7 +1745,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.254Z",
+      "addedAt": "2026-11-25T04:53:08.463Z",
       "developers": [
         "Manufacture 43",
         "Ctrl Freak"
@@ -1825,7 +1829,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.421Z",
+      "addedAt": "2026-11-25T04:53:00.611Z",
       "developers": [
         "Butiq Games"
       ],
@@ -1901,7 +1905,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.587Z",
+      "addedAt": "2026-11-25T04:53:01.125Z",
       "developers": [
         "Roost Games"
       ],
@@ -1983,7 +1987,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.329Z",
+      "addedAt": "2026-11-25T04:53:03.939Z",
       "developers": [
         "Regolite"
       ],
@@ -2058,7 +2062,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.181Z",
+      "addedAt": "2026-11-25T04:53:04.424Z",
       "developers": [
         "Garden"
       ],
@@ -2118,7 +2122,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.992Z",
+      "addedAt": "2026-11-25T04:53:07.163Z",
       "developers": [
         "InbredJesus"
       ],
@@ -2187,7 +2191,7 @@
       "releaseDate": "15 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.855Z",
+      "addedAt": "2026-11-25T04:53:01.075Z",
       "developers": [
         "RBGames"
       ],
@@ -2271,7 +2275,7 @@
       "releaseDate": "4 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.333Z",
+      "addedAt": "2026-11-25T04:52:58.084Z",
       "developers": [
         "Skyturns"
       ],
@@ -2366,7 +2370,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.587Z",
+      "addedAt": "2026-11-25T04:53:01.893Z",
       "developers": [
         "Square Enix",
         "TOSE CO., LTD."
@@ -2432,7 +2436,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.784Z",
+      "addedAt": "2026-11-25T04:52:58.459Z",
       "developers": [
         "Coyote House Games"
       ],
@@ -2513,7 +2517,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.431Z",
+      "addedAt": "2026-11-25T04:53:02.298Z",
       "developers": [
         "Foxtail Games LLC"
       ],
@@ -2573,7 +2577,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.549Z",
+      "addedAt": "2026-11-25T04:53:06.769Z",
       "developers": [
         "Midgar Studio"
       ],
@@ -2651,7 +2655,7 @@
       "releaseDate": "2 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.162Z",
+      "addedAt": "2026-11-25T04:53:06.126Z",
       "developers": [
         "CozyPlay"
       ],
@@ -2751,7 +2755,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.933Z",
+      "addedAt": "2026-11-25T04:53:03.430Z",
       "developers": [
         "FiftyEight Studios"
       ],
@@ -2922,7 +2926,7 @@
       "releaseDate": "7 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.356Z",
+      "addedAt": "2026-11-25T04:53:03.879Z",
       "developers": [
         "GamesMrkt"
       ],
@@ -2991,7 +2995,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.234Z",
+      "addedAt": "2026-11-25T04:53:04.953Z",
       "developers": [
         "Josh O'Caoimh"
       ],
@@ -3065,7 +3069,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.167Z",
+      "addedAt": "2026-11-25T04:52:58.954Z",
       "developers": [
         "Horseman Interactive"
       ],
@@ -3140,7 +3144,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.744Z",
+      "addedAt": "2026-11-25T04:53:04.939Z",
       "developers": [
         "Castitatis Games"
       ],
@@ -3210,7 +3214,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.830Z",
+      "addedAt": "2026-11-25T04:53:00.612Z",
       "developers": [
         "Happy Volcano"
       ],
@@ -3284,7 +3288,7 @@
       "releaseDate": "30 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.419Z",
+      "addedAt": "2026-11-25T04:53:00.036Z",
       "developers": [
         "Resolution Games"
       ],
@@ -3359,7 +3363,7 @@
       "releaseDate": "8 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.897Z",
+      "addedAt": "2026-11-25T04:53:02.779Z",
       "developers": [
         "Eschatology Entertainment"
       ],
@@ -3452,7 +3456,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.723Z",
+      "addedAt": "2026-11-25T04:52:58.560Z",
       "developers": [
         "Windup"
       ],
@@ -3532,7 +3536,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.234Z",
+      "addedAt": "2026-11-25T04:53:01.556Z",
       "developers": [
         "AOZ"
       ],
@@ -3612,7 +3616,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.174Z",
+      "addedAt": "2026-11-25T04:52:59.098Z",
       "developers": [
         "GOOD FUN CORP"
       ],
@@ -3685,75 +3689,6 @@
       "sourceUrl": "https://store.steampowered.com/app/1752080/"
     },
     {
-      "id": "5062970",
-      "appid": 5062970,
-      "title": "Incremental Pachinko Heaven",
-      "description": "Launch balls! Upgrade the board! Earn mountains of medals—and keep paying off your debt! A short pachinko incremental with a skill tree that keeps giving you new ways to earn!",
-      "releaseDate": "24 листоп. 2026",
-      "sortDate": "2026-12-31",
-      "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.803Z",
-      "developers": [
-        "Meitei Games"
-      ],
-      "publishers": [
-        "Meitei Games"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "genres": [
-        "Казуальні ігри",
-        "Інді"
-      ],
-      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/7cdfeb1c1b57e4fa125cdc4867d076bef3eb33ab/header.jpg?t=1795142062",
-      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/7cdfeb1c1b57e4fa125cdc4867d076bef3eb33ab/header.jpg?t=1795142062",
-      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5062970?t=1795142062",
-      "screenshots": [
-        {
-          "id": 0,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e/ss_1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e/ss_1f0ba6ffae30c36a39542cdd3182b2f2a9846f1e.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 1,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/fb97290689fe53330c4a7039f9a74430dc5bd35d/ss_fb97290689fe53330c4a7039f9a74430dc5bd35d.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/fb97290689fe53330c4a7039f9a74430dc5bd35d/ss_fb97290689fe53330c4a7039f9a74430dc5bd35d.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 2,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/dc54d9b51f533356ce38e636fd612a4637888220/ss_dc54d9b51f533356ce38e636fd612a4637888220.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/dc54d9b51f533356ce38e636fd612a4637888220/ss_dc54d9b51f533356ce38e636fd612a4637888220.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 3,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/b8449a61864d1dc182197ebc0e218ea493f7646a/ss_b8449a61864d1dc182197ebc0e218ea493f7646a.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/b8449a61864d1dc182197ebc0e218ea493f7646a/ss_b8449a61864d1dc182197ebc0e218ea493f7646a.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 4,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/d123d8ff052c7ce657734279d97f3cc967380264/ss_d123d8ff052c7ce657734279d97f3cc967380264.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/d123d8ff052c7ce657734279d97f3cc967380264/ss_d123d8ff052c7ce657734279d97f3cc967380264.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 5,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/e9e0534e8dc90385e2d08281b4ace402b707b9ab/ss_e9e0534e8dc90385e2d08281b4ace402b707b9ab.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/e9e0534e8dc90385e2d08281b4ace402b707b9ab/ss_e9e0534e8dc90385e2d08281b4ace402b707b9ab.1920x1080.jpg?t=1795142062"
-        },
-        {
-          "id": 6,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/ac3bd3fd325f7f10b741c257c1e0b24a111b66e1/ss_ac3bd3fd325f7f10b741c257c1e0b24a111b66e1.600x338.jpg?t=1795142062",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062970/ac3bd3fd325f7f10b741c257c1e0b24a111b66e1/ss_ac3bd3fd325f7f10b741c257c1e0b24a111b66e1.1920x1080.jpg?t=1795142062"
-        }
-      ],
-      "trailers": [],
-      "website": "",
-      "storeUrl": "https://store.steampowered.com/app/5062970/",
-      "sourceUrl": "https://store.steampowered.com/app/5062970/"
-    },
-    {
       "id": "5005030",
       "appid": 5005030,
       "title": "inFlight ATC",
@@ -3761,7 +3696,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.975Z",
+      "addedAt": "2026-11-25T04:53:07.193Z",
       "developers": [
         "Double5Media"
       ],
@@ -3820,7 +3755,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.915Z",
+      "addedAt": "2026-11-25T04:53:03.451Z",
       "developers": [
         "Polylab Studio"
       ],
@@ -3898,7 +3833,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.579Z",
+      "addedAt": "2026-11-25T04:53:06.534Z",
       "developers": [
         "C-Chicken"
       ],
@@ -3968,7 +3903,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.356Z",
+      "addedAt": "2026-11-25T04:53:03.937Z",
       "developers": [
         "wildgoose"
       ],
@@ -4062,7 +3997,7 @@
       "releaseDate": "4 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.625Z",
+      "addedAt": "2026-11-25T04:52:59.612Z",
       "developers": [
         "Velto Games"
       ],
@@ -4132,7 +4067,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.817Z",
+      "addedAt": "2026-11-25T04:53:07.600Z",
       "developers": [
         "Liquid Moon"
       ],
@@ -4201,7 +4136,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.563Z",
+      "addedAt": "2026-11-25T04:53:06.663Z",
       "developers": [
         "MappingCreator"
       ],
@@ -4286,7 +4221,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.622Z",
+      "addedAt": "2026-11-25T04:52:59.560Z",
       "developers": [
         "PMF Top Joy Games"
       ],
@@ -4346,7 +4281,7 @@
       "releaseDate": "10 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.136Z",
+      "addedAt": "2026-11-25T04:53:05.934Z",
       "developers": [
         "Meltdown Games"
       ],
@@ -4431,7 +4366,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.882Z",
+      "addedAt": "2026-11-25T04:53:03.477Z",
       "developers": [
         "Smola Game Studio"
       ],
@@ -4502,7 +4437,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.418Z",
+      "addedAt": "2026-11-25T04:53:07.606Z",
       "developers": [
         "Dekovir Ltd"
       ],
@@ -4603,7 +4538,7 @@
       "releaseDate": "24 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.361Z",
+      "addedAt": "2026-11-25T04:53:03.870Z",
       "developers": [
         "BraveCat'Studios"
       ],
@@ -4730,7 +4665,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.166Z",
+      "addedAt": "2026-11-25T04:53:04.895Z",
       "developers": [
         "RedRockGS"
       ],
@@ -4816,7 +4751,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.241Z",
+      "addedAt": "2026-11-25T04:53:08.446Z",
       "developers": [
         "NordicGamesLab"
       ],
@@ -4880,7 +4815,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.339Z",
+      "addedAt": "2026-11-25T04:52:58.050Z",
       "developers": [
         "Crime Cleanup Co."
       ],
@@ -4950,7 +4885,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.623Z",
+      "addedAt": "2026-11-25T04:52:59.549Z",
       "developers": [
         "HARDLINE"
       ],
@@ -5025,7 +4960,7 @@
       "releaseDate": "29 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.633Z",
+      "addedAt": "2026-11-25T04:52:59.504Z",
       "developers": [
         "EXLIX"
       ],
@@ -5103,7 +5038,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.433Z",
+      "addedAt": "2026-11-25T04:53:03.019Z",
       "developers": [
         "GB Patch Games"
       ],
@@ -5195,7 +5130,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.964Z",
+      "addedAt": "2026-11-25T04:53:02.329Z",
       "developers": [
         "Vahov games"
       ],
@@ -5257,6 +5192,127 @@
       "sourceUrl": "https://store.steampowered.com/app/5066090/"
     },
     {
+      "id": "5429590",
+      "appid": 5429590,
+      "title": "Potato Factory",
+      "description": "Ви застрягли на Марсі, а буря наближається. Потрібні гроші на ракету. Вирощуйте картоплю, продавайте чипси й вкладайте виручку у виробництво. Мутована картопля прибуває за розкладом. Скільки за неї дадуть?",
+      "releaseDate": "25 листоп. 2026",
+      "sortDate": "2026-12-31",
+      "comingSoon": true,
+      "addedAt": "2026-11-25T04:53:08.879Z",
+      "developers": [
+        "Pink Banana"
+      ],
+      "publishers": [
+        "Pink Banana"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "genres": [
+        "Бойовики",
+        "Казуальні ігри",
+        "Симулятори",
+        "Дочасний доступ"
+      ],
+      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/7de85145591f7c5b5691a8cc8acb10b1f40e227d/header.jpg?t=1795331602",
+      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/7de85145591f7c5b5691a8cc8acb10b1f40e227d/header.jpg?t=1795331602",
+      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5429590?t=1795331602",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/b7a4e2aa03da78af5e672ae6c5059eeecb6676fa/ss_b7a4e2aa03da78af5e672ae6c5059eeecb6676fa.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/b7a4e2aa03da78af5e672ae6c5059eeecb6676fa/ss_b7a4e2aa03da78af5e672ae6c5059eeecb6676fa.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/8310a778e70c17fe029ed02bc5b99abb2f59de86/ss_8310a778e70c17fe029ed02bc5b99abb2f59de86.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/8310a778e70c17fe029ed02bc5b99abb2f59de86/ss_8310a778e70c17fe029ed02bc5b99abb2f59de86.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/d045c9babcf30405a176e60d1387ad52479d6f04/ss_d045c9babcf30405a176e60d1387ad52479d6f04.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/d045c9babcf30405a176e60d1387ad52479d6f04/ss_d045c9babcf30405a176e60d1387ad52479d6f04.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a47868b770a6c059701d9f5dcebc355b07a1292f/ss_a47868b770a6c059701d9f5dcebc355b07a1292f.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a47868b770a6c059701d9f5dcebc355b07a1292f/ss_a47868b770a6c059701d9f5dcebc355b07a1292f.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/2e431639d1775544c190a613cfff0643748535e0/ss_2e431639d1775544c190a613cfff0643748535e0.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/2e431639d1775544c190a613cfff0643748535e0/ss_2e431639d1775544c190a613cfff0643748535e0.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/cbea3aa315f407976200787915ca6598b60ae882/ss_cbea3aa315f407976200787915ca6598b60ae882.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/cbea3aa315f407976200787915ca6598b60ae882/ss_cbea3aa315f407976200787915ca6598b60ae882.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/c3b16e91faaf733e9ff388198ef1b43714be1a49/ss_c3b16e91faaf733e9ff388198ef1b43714be1a49.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/c3b16e91faaf733e9ff388198ef1b43714be1a49/ss_c3b16e91faaf733e9ff388198ef1b43714be1a49.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/850ea9205120c136ecb8775c1459254a8ceb5bde/ss_850ea9205120c136ecb8775c1459254a8ceb5bde.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/850ea9205120c136ecb8775c1459254a8ceb5bde/ss_850ea9205120c136ecb8775c1459254a8ceb5bde.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/c72e5f88fcd3b77fe2e249e46b2be610b0e7a443/ss_c72e5f88fcd3b77fe2e249e46b2be610b0e7a443.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/c72e5f88fcd3b77fe2e249e46b2be610b0e7a443/ss_c72e5f88fcd3b77fe2e249e46b2be610b0e7a443.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/029c23070c300b7f81f13881e0db1986d9278f40/ss_029c23070c300b7f81f13881e0db1986d9278f40.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/029c23070c300b7f81f13881e0db1986d9278f40/ss_029c23070c300b7f81f13881e0db1986d9278f40.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 10,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/1f2d815a7f5e0e8a0d9a2368c065e49cc328487a/ss_1f2d815a7f5e0e8a0d9a2368c065e49cc328487a.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/1f2d815a7f5e0e8a0d9a2368c065e49cc328487a/ss_1f2d815a7f5e0e8a0d9a2368c065e49cc328487a.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 11,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/da7ce7860df1722a455990046712fbcee65a12a6/ss_da7ce7860df1722a455990046712fbcee65a12a6.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/da7ce7860df1722a455990046712fbcee65a12a6/ss_da7ce7860df1722a455990046712fbcee65a12a6.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 12,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/3db1cb4343e201d64f0d007e00410828d0447ebd/ss_3db1cb4343e201d64f0d007e00410828d0447ebd.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/3db1cb4343e201d64f0d007e00410828d0447ebd/ss_3db1cb4343e201d64f0d007e00410828d0447ebd.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 13,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a45d9e6a7139a06885f7e2671a8766de45863ea7/ss_a45d9e6a7139a06885f7e2671a8766de45863ea7.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a45d9e6a7139a06885f7e2671a8766de45863ea7/ss_a45d9e6a7139a06885f7e2671a8766de45863ea7.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 14,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a43fb977e702bf0ee8cd9acc2e8a18b3a699511e/ss_a43fb977e702bf0ee8cd9acc2e8a18b3a699511e.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/a43fb977e702bf0ee8cd9acc2e8a18b3a699511e/ss_a43fb977e702bf0ee8cd9acc2e8a18b3a699511e.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 15,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/4e5e305fd4755238499fead32842df06e6ea095e/ss_4e5e305fd4755238499fead32842df06e6ea095e.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/4e5e305fd4755238499fead32842df06e6ea095e/ss_4e5e305fd4755238499fead32842df06e6ea095e.1920x1080.jpg?t=1795331602"
+        },
+        {
+          "id": 16,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/da509c58d84110cda21c127dd77992ecf3bb82d0/ss_da509c58d84110cda21c127dd77992ecf3bb82d0.600x338.jpg?t=1795331602",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429590/da509c58d84110cda21c127dd77992ecf3bb82d0/ss_da509c58d84110cda21c127dd77992ecf3bb82d0.1920x1080.jpg?t=1795331602"
+        }
+      ],
+      "trailers": [],
+      "website": "https://pinkbananagames.com/",
+      "storeUrl": "https://store.steampowered.com/app/5429590/",
+      "sourceUrl": "https://store.steampowered.com/app/5429590/"
+    },
+    {
       "id": "3384600",
       "appid": 3384600,
       "title": "Professor Layton and the New World of Steam",
@@ -5264,7 +5320,7 @@
       "releaseDate": "9 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.846Z",
+      "addedAt": "2026-11-25T04:53:01.155Z",
       "developers": [
         "LEVEL5 Inc."
       ],
@@ -5342,7 +5398,7 @@
       "releaseDate": "8 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.725Z",
+      "addedAt": "2026-11-25T04:52:58.558Z",
       "developers": [
         "Alliance Arts",
         "WHO YOU"
@@ -5413,7 +5469,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.401Z",
+      "addedAt": "2026-11-25T04:53:07.634Z",
       "developers": [
         "TryMyGames"
       ],
@@ -5498,7 +5554,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.997Z",
+      "addedAt": "2026-11-25T04:53:02.288Z",
       "developers": [
         "Ubisoft"
       ],
@@ -5578,7 +5634,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.723Z",
+      "addedAt": "2026-11-25T04:52:58.500Z",
       "developers": [
         "Quite OK Games"
       ],
@@ -5673,7 +5729,7 @@
       "releaseDate": "1 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:54.587Z",
+      "addedAt": "2026-11-25T04:53:01.562Z",
       "developers": [
         "Maison Bap"
       ],
@@ -5751,7 +5807,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.642Z",
+      "addedAt": "2026-11-25T04:52:59.619Z",
       "developers": [
         "stre1itzia",
         "Andryash"
@@ -5847,7 +5903,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.016Z",
+      "addedAt": "2026-11-25T04:53:07.192Z",
       "developers": [
         "Pixel Core Games"
       ],
@@ -5920,11 +5976,11 @@
       "id": "1550920",
       "appid": 1550920,
       "title": "Slime Alchemy",
-      "description": "Slime Alchemy is a relaxing puzzle game where you must place pieces in specific locations on a hexagonal grid.",
+      "description": "Rotate the hexagons to fit the pieces together Go through challenges. Create slimes. Slime Alchemy is a relaxing puzzle game. Featuring: Move pieces on a hexagonal grid , fitting them into patterns to solve the puzzles. There are 50 challenging levels to complete. Engaging and relaxing soundtrack. Fully replayable (pieces are shuffled randomly with each new playthrough). Hand-drawn graphics. Are you ready to solve the puzzles and create slimes ?",
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.156Z",
+      "addedAt": "2026-11-25T04:53:04.393Z",
       "developers": [
         "GR Space Studio"
       ],
@@ -5992,7 +6048,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.286Z",
+      "addedAt": "2026-11-25T04:53:08.465Z",
       "developers": [
         "Rainboar Studios"
       ],
@@ -6109,11 +6165,11 @@
       "id": "5234330",
       "appid": 5234330,
       "title": "Sort On The Ball",
-      "description": "A cozy game about opening tons of capsules to sort and collect cute toy balls. Sort like you're on the ball!",
+      "description": "Sort On The Ball is a cozy sorting organizing simulator where you open tons of capsule balls to collect and sort the cute toy balls. Enjoy the surprises of opening capsules, and put the balls all in places. Find a unique one among an ocean of pit ball capsules. And turn the messy place into an organized inviting collection store. You could do it one by one or upgrade all kinds of ways to sort them efficiently and creatively. You might be organizing with friends or enjoy it by yourself. No pressure, take your time. ",
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.153Z",
+      "addedAt": "2026-11-25T04:53:05.925Z",
       "developers": [
         "SparrowSim"
       ],
@@ -6173,7 +6229,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.433Z",
+      "addedAt": "2026-11-25T04:53:00.613Z",
       "developers": [
         "Kusa Games"
       ],
@@ -6283,7 +6339,7 @@
       "releaseDate": "27 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.493Z",
+      "addedAt": "2026-11-25T04:53:02.808Z",
       "developers": [
         "Rysesoft"
       ],
@@ -6382,7 +6438,7 @@
       "releaseDate": "30 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.891Z",
+      "addedAt": "2026-11-25T04:53:03.462Z",
       "developers": [
         "TEDLANDGAMES STUDIO"
       ],
@@ -6470,7 +6526,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.275Z",
+      "addedAt": "2026-11-25T04:53:08.008Z",
       "developers": [
         "DreamWay Games"
       ],
@@ -6574,7 +6630,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.656Z",
+      "addedAt": "2026-11-25T04:53:05.497Z",
       "developers": [
         "Dark One!"
       ],
@@ -6632,7 +6688,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.562Z",
+      "addedAt": "2026-11-25T04:53:05.957Z",
       "developers": [
         "Fandoor Studio"
       ],
@@ -6728,7 +6784,7 @@
       "releaseDate": "30 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.242Z",
+      "addedAt": "2026-11-25T04:52:59.104Z",
       "developers": [
         "Indub"
       ],
@@ -6816,7 +6872,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.445Z",
+      "addedAt": "2026-11-25T04:53:00.646Z",
       "developers": [
         "VISUAL ARTS / team Aeca"
       ],
@@ -6904,7 +6960,7 @@
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.141Z",
+      "addedAt": "2026-11-25T04:53:05.430Z",
       "developers": [
         "Cherish Fan"
       ],
@@ -6999,7 +7055,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.767Z",
+      "addedAt": "2026-11-25T04:53:04.402Z",
       "developers": [
         "Nightdive Studios",
         "Looking Glass Studios"
@@ -7095,7 +7151,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.808Z",
+      "addedAt": "2026-11-25T04:53:08.037Z",
       "developers": [
         "Nanuri"
       ],
@@ -7180,7 +7236,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.969Z",
+      "addedAt": "2026-11-25T04:53:06.539Z",
       "developers": [
         "Mousitude Games"
       ],
@@ -7249,7 +7305,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:59.405Z",
+      "addedAt": "2026-11-25T04:53:07.204Z",
       "developers": [
         "Kniv Studio Co., Ltd.",
         "OFFtheREAL"
@@ -7268,34 +7324,34 @@
         "Рольові ігри",
         "Вільний доступ"
       ],
-      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/726c32358aca78abd26e706530dc40e96bdfebf4/header.jpg?t=1795412386",
-      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/726c32358aca78abd26e706530dc40e96bdfebf4/header.jpg?t=1795412386",
-      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5045040?t=1795412386",
+      "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/726c32358aca78abd26e706530dc40e96bdfebf4/header.jpg?t=1795581701",
+      "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/726c32358aca78abd26e706530dc40e96bdfebf4/header.jpg?t=1795581701",
+      "hero": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5045040?t=1795581701",
       "screenshots": [
         {
           "id": 0,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58/ss_69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58.600x338.jpg?t=1795412386",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58/ss_69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58.1920x1080.jpg?t=1795412386"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58/ss_69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58.600x338.jpg?t=1795581701",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58/ss_69e912b1567f658a35ae6d4a29a5e1d9e6e2ba58.1920x1080.jpg?t=1795581701"
         },
         {
           "id": 1,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/de95db060395c32458c51e9127cec0e44975c00a/ss_de95db060395c32458c51e9127cec0e44975c00a.600x338.jpg?t=1795412386",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/de95db060395c32458c51e9127cec0e44975c00a/ss_de95db060395c32458c51e9127cec0e44975c00a.1920x1080.jpg?t=1795412386"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/de95db060395c32458c51e9127cec0e44975c00a/ss_de95db060395c32458c51e9127cec0e44975c00a.600x338.jpg?t=1795581701",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/de95db060395c32458c51e9127cec0e44975c00a/ss_de95db060395c32458c51e9127cec0e44975c00a.1920x1080.jpg?t=1795581701"
         },
         {
           "id": 2,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/bec3a6af82bd8029cd524dd18209c6fb522890b8/ss_bec3a6af82bd8029cd524dd18209c6fb522890b8.600x338.jpg?t=1795412386",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/bec3a6af82bd8029cd524dd18209c6fb522890b8/ss_bec3a6af82bd8029cd524dd18209c6fb522890b8.1920x1080.jpg?t=1795412386"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/bec3a6af82bd8029cd524dd18209c6fb522890b8/ss_bec3a6af82bd8029cd524dd18209c6fb522890b8.600x338.jpg?t=1795581701",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/bec3a6af82bd8029cd524dd18209c6fb522890b8/ss_bec3a6af82bd8029cd524dd18209c6fb522890b8.1920x1080.jpg?t=1795581701"
         },
         {
           "id": 3,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/369c8087aee795fcec68ab2edc0a2446f41ffd95/ss_369c8087aee795fcec68ab2edc0a2446f41ffd95.600x338.jpg?t=1795412386",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/369c8087aee795fcec68ab2edc0a2446f41ffd95/ss_369c8087aee795fcec68ab2edc0a2446f41ffd95.1920x1080.jpg?t=1795412386"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/369c8087aee795fcec68ab2edc0a2446f41ffd95/ss_369c8087aee795fcec68ab2edc0a2446f41ffd95.600x338.jpg?t=1795581701",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/369c8087aee795fcec68ab2edc0a2446f41ffd95/ss_369c8087aee795fcec68ab2edc0a2446f41ffd95.1920x1080.jpg?t=1795581701"
         },
         {
           "id": 4,
-          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/656ab0e6a3f44fd60a5332615934e8839df54f4e/ss_656ab0e6a3f44fd60a5332615934e8839df54f4e.600x338.jpg?t=1795412386",
-          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/656ab0e6a3f44fd60a5332615934e8839df54f4e/ss_656ab0e6a3f44fd60a5332615934e8839df54f4e.1920x1080.jpg?t=1795412386"
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/656ab0e6a3f44fd60a5332615934e8839df54f4e/ss_656ab0e6a3f44fd60a5332615934e8839df54f4e.600x338.jpg?t=1795581701",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5045040/656ab0e6a3f44fd60a5332615934e8839df54f4e/ss_656ab0e6a3f44fd60a5332615934e8839df54f4e.1920x1080.jpg?t=1795581701"
         }
       ],
       "trailers": [],
@@ -7311,7 +7367,7 @@
       "releaseDate": "7 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.212Z",
+      "addedAt": "2026-11-25T04:52:59.023Z",
       "developers": [
         "Trollheim ",
         "Off-leash Interactive "
@@ -7439,7 +7495,7 @@
       "releaseDate": "2 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:58.965Z",
+      "addedAt": "2026-11-25T04:53:07.152Z",
       "developers": [
         "betetiro"
       ],
@@ -7535,7 +7591,7 @@
       "releaseDate": "7 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.781Z",
+      "addedAt": "2026-11-25T04:53:04.467Z",
       "developers": [
         "SkorpionDev"
       ],
@@ -7609,7 +7665,7 @@
       "releaseDate": "4 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:57.670Z",
+      "addedAt": "2026-11-25T04:53:05.427Z",
       "developers": [
         "olmewe",
         "BELLA!"
@@ -7675,7 +7731,7 @@
       "releaseDate": "3 груд. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.788Z",
+      "addedAt": "2026-11-25T04:52:58.517Z",
       "developers": [
         "KING Art"
       ],
@@ -7759,7 +7815,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:53.026Z",
+      "addedAt": "2026-11-25T04:53:00.153Z",
       "developers": [
         "LeenGameDev"
       ],
@@ -7829,7 +7885,7 @@
       "releaseDate": "29 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:51.337Z",
+      "addedAt": "2026-11-25T04:52:58.053Z",
       "developers": [
         "Balio Studio"
       ],
@@ -7909,7 +7965,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:55.411Z",
+      "addedAt": "2026-11-25T04:53:02.740Z",
       "developers": [
         "cnsgames"
       ],
@@ -8011,11 +8067,11 @@
       "id": "5000500",
       "appid": 5000500,
       "title": "少女三国志",
-      "description": "《少女三国志》是一款融合三国历史与异世界幻想的二次元策略RPG。三国英魂因时空裂隙降临星魂大陆，以少女之身重获力量，与魔魇军团展开跨越世界的战争。收集传奇英魂，组建最强阵容，探索隐藏真相，开启属于你的全新三国篇章。",
+      "description": "三国英魂，少女重生 在《少女三国志》中，你将见到熟悉而又陌生的三国人物。 她们拥有曾经的记忆、信念与荣耀，却在星魂大陆开启了一段全新的命运。 曾经驰骋沙场的武将，如今将掌握新的力量； 曾经运筹天下的谋士，将面对更加未知的棋局； 曾经敌对的阵营，也将在共同危机面前暂时联手。 为了回到原本的世界，她们必须组成“英魂军”，携手对抗席卷大陆的魔魇灾厄。 但过去的恩怨真的能够放下吗？ 友情、信念、野心与宿命，将在这片异世界重新交织。 魔魇降临，世界濒临毁灭 千年前，一场改变世界规则的“逆乱之劫”降临。 星魂大陆的力量法则发生扭曲。 原本所有生命都能够与魔魇抗衡，但如今，魔魇拥有无法突破的“阳煞护甲”。 只有特殊的“阴之力”才能真正伤害它们。 随着漫长战争持续，人类逐渐失去希望。 而隐藏在黑暗中的“魇主”，正在不断扩张自己的力量。 与此同时，一些人类选择背叛自己的世界，成为—— 叛天者。 他们获得魇主赐予的力量，操控魔魇大军，与人类为敌。 面对内忧外患，来自三国的少女英魂成为了这个世界最后的希望。 策略为王，重新书写三国天下 你将带领三国少女英魂，在星魂大陆建立属于自己的势力。 收集传奇武将，培养专属阵容。 不同角色拥有独特的战斗定位：",
       "releaseDate": "26 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.757Z",
+      "addedAt": "2026-11-25T04:53:03.942Z",
       "developers": [
         "少女三国志"
       ],
@@ -8077,7 +8133,7 @@
       "releaseDate": "29 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:43:00.272Z",
+      "addedAt": "2026-11-25T04:53:08.033Z",
       "developers": [
         "BakaFire Party",
         "The Sakura Scholar"
@@ -8152,7 +8208,7 @@
       "releaseDate": "25 листоп. 2026",
       "sortDate": "2026-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:52.201Z",
+      "addedAt": "2026-11-25T04:52:58.979Z",
       "developers": [
         "Studio51 Inc."
       ],
@@ -8236,11 +8292,11 @@
       "id": "5072600",
       "appid": 5072600,
       "title": "Family Time",
-      "description": "Build a family of thousands of wolf children with your own wolf partner!",
+      "description": "You're a Father Now All of a sudden you have to take care of dozens of wolf children! Every night their number grows! Fail to do so and your partner, the Wolf Mama, will kill you! How many can you sustain? Shelter Your Family! Build houses for them, or command them to build them for you! Feed your Family! Farm food for them or go out hunting with them! Pamper your Family! Keep them snug in their own beds to not anger the Wolf Mama! Can you support 10 children? 100? 1000? 10,000? Find out.",
       "releaseDate": "1-й квартал 2027",
       "sortDate": "2027-12-31",
       "comingSoon": true,
-      "addedAt": "2026-11-25T03:42:56.754Z",
+      "addedAt": "2026-11-25T04:53:04.895Z",
       "developers": [
         "sgthale"
       ],
