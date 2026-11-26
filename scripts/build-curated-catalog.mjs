@@ -11,10 +11,16 @@ for (const game of editorial.games) {
   if (!['2026', '2027', '2028', '2029', '2030', 'TBA'].includes(String(game.releaseYear))) throw new Error(`Unexpected release year for ${game.id}`);
   for (const source of game.sources) new URL(source.url);
 }
-for (const year of ['2026', '2027', '2028', '2029', '2030']) {
-  const count = editorial.games.filter((game) => String(game.releaseYear) === year).length;
+// Сайт показує лише ігри, які ще не вийшли. Гра з точною датою зникає наступного дня після релізу.
+const today = new Date().toISOString().slice(0, 10);
+const hasExactDate = (game) => /^\d{4}-\d{2}-\d{2}$/.test(game.sortDate || '') && /^\d{1,2} \S+ \d{4}/.test(game.releaseDate || '');
+const isReleased = (game) => game.status === 'released' || (game.status !== 'rumor' && hasExactDate(game) && game.sortDate < today);
+const upcoming = editorial.games.filter((game) => !isReleased(game));
+const currentYear = today.slice(0, 4);
+for (const year of ['2026', '2027', '2028', '2029', '2030'].filter((year) => year > currentYear)) {
+  const count = upcoming.filter((game) => String(game.releaseYear) === year).length;
   if (count < 20) throw new Error(`Для ${year} року потрібно щонайменше 20 записів; знайдено ${count}.`);
 }
-const output = { updatedAt: new Date().toISOString(), source: 'Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа', sources: editorial.resources, games: editorial.games };
+const output = { updatedAt: new Date().toISOString(), source: 'Редакційна перевірка: офіційні видавці, студії, платформи та ігрові медіа', sources: editorial.resources, games: upcoming };
 await writeFile(new URL('../games.json', import.meta.url), `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Зібрано ${output.games.length} редакційних записів; статуси чітко розділяють підтвердження та чутки.`);
+console.log(`Зібрано ${output.games.length} майбутніх релізів; приховано ігор, що вже вийшли: ${editorial.games.length - upcoming.length}.`);
